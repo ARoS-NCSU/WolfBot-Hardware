@@ -2408,92 +2408,82 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </deviceset>
 </devicesets>
 </library>
-<library name="switch">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="wolfbot">
+<description>&lt;b&gt;WolfBot&lt;/b&gt;
+
+Addtional WolfBot parts</description>
 <packages>
-<package name="9070-1W">
-<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
- Marquardt</description>
-<wire x1="-6.35" y1="-4.445" x2="4.445" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="4.445" x2="-6.35" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="-2.286" x2="-9.144" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="4.445" x2="-6.35" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="1.27" x2="-17.907" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="1.27" x2="-9.144" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="-1.27" x2="-17.907" y2="-3.429" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="-1.27" x2="-9.144" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-17.907" y1="-3.429" x2="-17.907" y2="-0.889" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-8.89" y1="-2.54" x2="-9.144" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-9.144" y1="2.286" x2="-8.89" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.54" x2="-6.35" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-4.445" x2="4.445" y2="-3.302" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.778" x2="4.445" y2="-3.302" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="-1.778" x2="4.445" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="0.762" x2="4.445" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="4.445" x2="4.445" y2="3.302" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.778" x2="4.445" y2="3.302" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="1.778" x2="4.445" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="5.08" y="-2.54" drill="0.8128" shape="long"/>
-<pad name="2" x="5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="3" x="5.08" y="2.54" drill="0.8128" shape="long"/>
-<pad name="B" x="0" y="-2.54" drill="1.1176" diameter="1.778"/>
-<pad name="B1" x="0" y="2.54" drill="1.1176" diameter="1.778"/>
-<text x="-5.08" y="5.08" size="1.524" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-0.762" size="1.524" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="4.445" y1="-2.921" x2="5.08" y2="-2.159" layer="51"/>
-<rectangle x1="4.445" y1="-0.381" x2="5.08" y2="0.381" layer="51"/>
-<rectangle x1="4.445" y1="2.159" x2="5.08" y2="2.921" layer="51"/>
+<package name="WSP1-T2-M6">
+<description>Horizontal, right angle, short actuator</description>
+<wire x1="0" y1="-6.35" x2="9.525" y2="-6.35" width="0.1524" layer="51"/>
+<wire x1="9.525" y1="6.35" x2="0" y2="6.35" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="0" y1="6.35" x2="0" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="0.635" x2="-12.7" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-1.905" x2="-12.7" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-12.7" y1="-3.81" x2="-12.7" y2="-0.635" width="0.1524" layer="51" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-6.35" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="51"/>
+<pad name="1" x="12.7" y="-4.699" drill="1.85" diameter="2.54"/>
+<pad name="2" x="12.7" y="0" drill="1.85" diameter="2.54"/>
+<pad name="B2" x="0" y="-2.54" drill="1.85" diameter="2.54"/>
+<pad name="B1" x="0" y="2.54" drill="1.85" diameter="2.54"/>
+<text x="1.11" y="4.31" size="1.524" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.98" y="-5.422" size="1.524" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="9.525" y1="6.35" x2="9.525" y2="4.699" width="0.1524" layer="51"/>
+<wire x1="9.525" y1="4.699" x2="9.525" y2="0" width="0.1524" layer="51"/>
+<wire x1="9.525" y1="0" x2="9.525" y2="-4.7" width="0.1524" layer="51"/>
+<wire x1="9.525" y1="-4.7" x2="9.525" y2="-6.35" width="0.1524" layer="51"/>
+<wire x1="12.7" y1="0" x2="9.525" y2="0" width="0.127" layer="51"/>
+<wire x1="12.7" y1="-4.7" x2="9.525" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="12.7" y1="4.699" x2="9.525" y2="4.699" width="0.127" layer="51"/>
+<pad name="3" x="12.7" y="4.699" drill="1.85" diameter="2.54"/>
 </package>
 </packages>
 <symbols>
-<symbol name="KS-UB">
-<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-3.175" x2="7.62" y2="3.175" width="0.254" layer="94"/>
-<text x="-3.81" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="B" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="B1" x="7.62" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<symbol name="SPDT">
+<wire x1="4.445" y1="7.09" x2="4.445" y2="5.82" width="0.254" layer="94"/>
+<wire x1="4.445" y1="7.09" x2="0.705" y2="7.09" width="0.254" layer="94"/>
+<wire x1="4.445" y1="8.36" x2="4.445" y2="7.09" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="6.477" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.715" x2="2.54" y2="5.207" width="0.1524" layer="94"/>
+<text x="-2" y="9.05" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.605" y="-6.21" size="1.778" layer="95">&gt;PART</text>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.286" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0.127" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="5.715" y2="1.905" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.715" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.715" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.302" x2="1.778" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.794" x2="2.54" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.413" width="0.1524" layer="94"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="1" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="9070-1W" prefix="S" uservalue="yes">
-<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
- Marquardt</description>
+<deviceset name="ESWITCH-WSP1">
+<description>Toggle Switch</description>
 <gates>
-<gate name="2" symbol="KS-UB" x="0" y="0"/>
+<gate name="G$1" symbol="SPDT" x="2.65" y="0"/>
 </gates>
 <devices>
-<device name="" package="9070-1W">
+<device name="" package="WSP1-T2-M6">
 <connects>
-<connect gate="2" pin="B" pad="B"/>
-<connect gate="2" pin="B1" pad="B1"/>
-<connect gate="2" pin="O" pad="1"/>
-<connect gate="2" pin="P" pad="2"/>
-<connect gate="2" pin="S" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2529,10 +2519,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="BAD_SW" library="switch" deviceset="9070-1W" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="CHARGE" library="con-molex-micro-fit-3_0" deviceset="HEADER_POS2_?" device="43045-0206"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="U$1" library="wolfbot" deviceset="ESWITCH-WSP1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2550,10 +2540,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="GND2" gate="1" x="63.5" y="104.14"/>
 <instance part="GND4" gate="1" x="20.32" y="71.12"/>
 <instance part="GND5" gate="1" x="137.16" y="48.26"/>
-<instance part="BAD_SW" gate="2" x="88.9" y="114.3" rot="R270"/>
 <instance part="GND3" gate="1" x="109.22" y="104.14"/>
 <instance part="CHARGE" gate="G$1" x="119.38" y="124.46" rot="MR180"/>
 <instance part="GND6" gate="1" x="109.22" y="119.38"/>
+<instance part="U$1" gate="G$1" x="83.82" y="111.76"/>
 </instances>
 <busses>
 </busses>
@@ -2614,17 +2604,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <pinref part="BAT" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="58.42" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="BAD_SW" gate="2" pin="B"/>
-<wire x1="63.5" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
-<junction x="63.5" y="106.68"/>
 </segment>
 <segment>
-<pinref part="BAD_SW" gate="2" pin="B1"/>
 <pinref part="OUT" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="109.22" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
-<junction x="109.22" y="106.68"/>
 </segment>
 <segment>
 <pinref part="CHARGE" gate="G$1" pin="1"/>
@@ -2638,11 +2622,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="58.42" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="V+"/>
 <wire x1="63.5" y1="114.3" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <junction x="63.5" y="109.22"/>
-<pinref part="BAD_SW" gate="2" pin="P"/>
-<wire x1="83.82" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="111.76" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="111.76" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ENABLE" class="0">
@@ -2813,9 +2796,9 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="V_RUN" class="1">
 <segment>
-<pinref part="BAD_SW" gate="2" pin="S"/>
 <pinref part="OUT" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="VCC1"/>
@@ -2840,11 +2823,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="V_CHARGE" class="1">
 <segment>
-<pinref part="BAD_SW" gate="2" pin="O"/>
-<wire x1="93.98" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="114.3" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="CHARGE" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3"/>
 </segment>
 </net>
 </nets>
