@@ -1,0 +1,13 @@
+Files to put in zip file for Gerber file:
+ .gbl
+ .gbo
+ .gbs
+ .gtl
+ .gto
+ .gts
+ .drd
+ 
+ 
+ Use this website to view the Gerber Files after zipping:
+ http://www.gerber-viewer.com/
+ 
