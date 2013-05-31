@@ -1,3 +1,11 @@
+To check the PCB board design, 
+use the Sparkfun.dru file with the DRC tool.
+
+Then use the cmthunes-gerber-excellon.cam file
+ with the cam tool to generate gerber files. 
+ (Use process job).
+
+
 Files to put in zip file for Gerber file:
  .gbl
  .gbo
