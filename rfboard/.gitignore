@@ -1,0 +1,8 @@
+eagle.epf
+DESCRIPTION
+DRILEGEND.CFG
+*.pro
+*.b#?
+*.s#?
+
+
