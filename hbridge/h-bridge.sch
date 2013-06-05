@@ -2499,12 +2499,12 @@ Addtional WolfBot parts</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.4064">
+<class number="0" name="default" width="0.254" drill="0.508">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="power" width="0.508" drill="0.4064">
-<clearance class="0" value="0.254"/>
-<clearance class="1" value="0.254"/>
+<class number="1" name="power" width="0.508" drill="0.508">
+<clearance class="0" value="0.508"/>
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -2548,7 +2548,7 @@ Addtional WolfBot parts</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="H1" gate="G$1" pin="GND3"/>
 <pinref part="H2" gate="G$1" pin="GND1"/>
