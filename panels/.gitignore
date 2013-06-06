@@ -1,0 +1,19 @@
+*.zip
+
+# standard gerbers
+*.drd
+*.gbl
+*.gbo
+*.gbs
+*.gtl
+*.gto
+*.gts
+
+# extra standard gerbers
+*.bor
+
+# gerbmerge
+*.fab
+*.oln
+*.placement.txt
+*.toollist.drl
