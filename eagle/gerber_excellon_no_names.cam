@@ -1,6 +1,5 @@
 [CAM Processor Job]
-Description[de]="<b>Erzeugt Extended-Gerber-Format (RS274X)</b><p>\nDieser CAM-Job besteht aus fünf Arbeitsschritten und erzeugt Fertigungsdaten für eine zweilagige Platine.<p><p>\nDie fünf Gerberdateien enthalten Daten für:<br>\nBestückungsseite  *.cmp<br>\nLötseite  *.sol<br>\nBestückungsdruck oben  *.plc<br>\nLötstoplack Bestückungsseite  *.stc<br>\nLötstoplack Lötseite  *.sts<br>"
-Description[en]="<b>Generates Extended Gerber Format</b><p>\nThis CAM job consists of five sections that generate data for a two layer board.<p><p>\nYou will get five gerber files that contain data for:<br>\ncomponent side *.cmp<br>\nsolder side  *.sol<br>\nsilkscreen component side  *.plc<br>\nsolder stop component side  *.stc<br>\nsolder stop solder sid  *.sts<br>"
+Description[en]="<b>Gerber (no names) with Excellon Drill</b>\n<p>This CAM job generates gerber files for a two layer board.\nYou will get six gerber files that contain data for:</p>\nTop copper layer: *.gtl <br />\nBottom copper layer: *.gbl <br />\nTop overlay (silk:)  *.gto <br />\nBottom overlay:  *.gbo <br />\nTop stop mask: *.gts<br />\nBottom stop mask: *.gbs\n<p>An Excellon drill file is also produced</p>"
 Section=Sec_1
 Section=Sec_2
 Section=Sec_3
