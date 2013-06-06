@@ -4,5 +4,6 @@ DRILEGEND.CFG
 *.pro
 *.b#?
 *.s#?
-
-
+*.zip
+*.gti
+*.dri
