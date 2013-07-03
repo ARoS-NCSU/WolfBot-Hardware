@@ -43,8 +43,12 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -53,6 +57,51 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -3533,6 +3582,139 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ngohara_parts">
+<packages>
+<package name="TSSOP16">
+<description>&lt;b&gt;Thin Shrink Small Outline Plastic 16&lt;/b&gt;&lt;p&gt;
+MAX3223-MAX3243.pdf</description>
+<wire x1="-2.5146" y1="-2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="2.5146" y1="2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="2.5146" y1="2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="-2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="2.0542" x2="-2.286" y2="2.0542" width="0.0508" layer="21"/>
+<wire x1="-2.286" y1="-2.0542" x2="-2.286" y2="2.0542" width="0.0508" layer="21"/>
+<circle x="-1.6256" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
+<smd name="1" x="-2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="2" x="-1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="3" x="-0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="4" x="-0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="5" x="0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="6" x="0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="7" x="1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="8" x="2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="9" x="2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="10" x="1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="11" x="0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="12" x="0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="13" x="-0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="14" x="-0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="15" x="-1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="16" x="-2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<text x="-2.8956" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.8862" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.3766" y1="-3.121" x2="-2.1734" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.7266" y1="-3.121" x2="-1.5234" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.0766" y1="-3.121" x2="-0.8734" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.4266" y1="-3.121" x2="-0.2234" y2="-2.2828" layer="51"/>
+<rectangle x1="0.2234" y1="-3.121" x2="0.4266" y2="-2.2828" layer="51"/>
+<rectangle x1="0.8734" y1="-3.121" x2="1.0766" y2="-2.2828" layer="51"/>
+<rectangle x1="1.5234" y1="-3.121" x2="1.7266" y2="-2.2828" layer="51"/>
+<rectangle x1="2.1734" y1="-3.121" x2="2.3766" y2="-2.2828" layer="51"/>
+<rectangle x1="2.1734" y1="2.2828" x2="2.3766" y2="3.121" layer="51"/>
+<rectangle x1="1.5234" y1="2.2828" x2="1.7266" y2="3.121" layer="51"/>
+<rectangle x1="0.8734" y1="2.2828" x2="1.0766" y2="3.121" layer="51"/>
+<rectangle x1="0.2234" y1="2.2828" x2="0.4266" y2="3.121" layer="51"/>
+<rectangle x1="-0.4266" y1="2.2828" x2="-0.2234" y2="3.121" layer="51"/>
+<rectangle x1="-1.0766" y1="2.2828" x2="-0.8734" y2="3.121" layer="51"/>
+<rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
+<rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ANALOG_MUX_8X1">
+<description>CD4051B
+8X1 analog mux
+http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
+<pin name="P$1" x="-10.16" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="P$2" x="-10.16" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$3" x="-10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$4" x="-10.16" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$5" x="-10.16" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$6" x="-10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$7" x="-10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$8" x="-10.16" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$9" x="10.16" y="-7.62" visible="pad" length="middle"/>
+<pin name="P$10" x="10.16" y="-5.08" visible="pad" length="middle"/>
+<pin name="P$11" x="10.16" y="-2.54" visible="pad" length="middle"/>
+<pin name="P$12" x="10.16" y="0" visible="pad" length="middle"/>
+<pin name="P$13" x="10.16" y="2.54" visible="pad" length="middle"/>
+<pin name="P$14" x="10.16" y="5.08" visible="pad" length="middle"/>
+<pin name="P$15" x="10.16" y="7.62" visible="pad" length="middle"/>
+<pin name="P$16" x="10.16" y="10.16" visible="pad" length="middle"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94" curve="-180"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95">CD4051B</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;MUX$1</text>
+<text x="-7.62" y="4.445" size="1.27" layer="94">OUT</text>
+<text x="-7.62" y="-8.255" size="1.27" layer="94">Vss</text>
+<text x="-7.62" y="-5.715" size="1.27" layer="94">Vee</text>
+<text x="4.445" y="9.525" size="1.27" layer="94">Vdd</text>
+<text x="3.81" y="-3.175" size="1.27" layer="94">Sel A</text>
+<text x="3.81" y="-5.715" size="1.27" layer="94">Sel B</text>
+<text x="3.81" y="-8.255" size="1.27" layer="94">Sel C</text>
+<text x="4.445" y="4.445" size="1.27" layer="94">IN 1</text>
+<text x="4.445" y="6.985" size="1.27" layer="94">IN 2</text>
+<text x="4.445" y="-0.635" size="1.27" layer="94">IN 3</text>
+<text x="4.445" y="1.905" size="1.27" layer="94">IN 0</text>
+<text x="-7.62" y="9.525" size="1.27" layer="94">IN 4</text>
+<text x="-7.62" y="-0.635" size="1.27" layer="94">IN 5</text>
+<text x="-7.62" y="1.905" size="1.27" layer="94">IN 7</text>
+<text x="-7.62" y="6.985" size="1.27" layer="94">IN 6</text>
+<text x="-7.62" y="-3.175" size="1.27" layer="94">INHIB</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="8X1_ANALOG_MUX">
+<description>CD4051B
+8X1 analog mux
+http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
+<gates>
+<gate name="G$1" symbol="ANALOG_MUX_8X1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP16">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="13"/>
+<connect gate="G$1" pin="P$14" pad="14"/>
+<connect gate="G$1" pin="P$15" pad="15"/>
+<connect gate="G$1" pin="P$16" pad="16"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3565,6 +3747,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="U$2" library="jst-ph" deviceset="JST-PH6-SMD" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="U$3" library="ngohara_parts" deviceset="8X1_ANALOG_MUX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3590,9 +3773,10 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <instance part="JP5" gate="A" x="73.66" y="50.8"/>
 <instance part="JP6" gate="A" x="83.82" y="50.8"/>
 <instance part="U$1" gate="G$1" x="2.54" y="15.24"/>
-<instance part="U$2" gate="G$1" x="101.6" y="25.4" rot="R180"/>
+<instance part="U$2" gate="G$1" x="165.1" y="22.86" rot="R180"/>
 <instance part="GND1" gate="1" x="22.86" y="10.16"/>
 <instance part="GND2" gate="1" x="2.54" y="45.72"/>
+<instance part="U$3" gate="G$1" x="119.38" y="33.02"/>
 </instances>
 <busses>
 </busses>
@@ -3644,6 +3828,19 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <junction x="71.12" y="48.26"/>
 <wire x1="71.12" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <junction x="81.28" y="48.26"/>
+<wire x1="2.54" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="101.6" y="27.94" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<label x="142.24" y="43.18" size="0.8128" layer="95" ratio="12" xref="yes"/>
+<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="40.64" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<label x="96.52" y="35.56" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<junction x="104.14" y="40.64"/>
+<junction x="104.14" y="35.56"/>
+<junction x="104.14" y="27.94"/>
+<junction x="134.62" y="43.18"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -3670,6 +3867,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <junction x="60.96" y="53.34"/>
 <junction x="71.12" y="53.34"/>
 <junction x="81.28" y="53.34"/>
+<wire x1="104.14" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
+<label x="101.6" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<junction x="104.14" y="25.4"/>
 </segment>
 </net>
 <net name="DATA1-H" class="0">
@@ -3737,10 +3937,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="27.94" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <junction x="27.94" y="25.4"/>
 <label x="25.4" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<junction x="93.98" y="20.32"/>
-<label x="91.44" y="20.32" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
+<label x="137.16" y="35.56" size="0.8128" layer="95" ratio="12" xref="yes"/>
+<junction x="134.62" y="35.56"/>
 </segment>
 </net>
 <net name="DATA2-L" class="0">
@@ -3754,10 +3953,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="38.1" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <junction x="38.1" y="25.4"/>
 <label x="35.56" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<junction x="93.98" y="22.86"/>
-<label x="91.44" y="22.86" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="137.16" y="38.1" size="0.8128" layer="95" ratio="12" xref="yes"/>
+<junction x="134.62" y="38.1"/>
 </segment>
 </net>
 <net name="DATA3-L" class="0">
@@ -3771,10 +3969,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="48.26" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
 <junction x="48.26" y="25.4"/>
 <label x="45.72" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<junction x="93.98" y="25.4"/>
-<label x="91.44" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<label x="137.16" y="40.64" size="0.8128" layer="95" ratio="12" xref="yes"/>
+<junction x="134.62" y="40.64"/>
 </segment>
 </net>
 <net name="DATA4-L" class="0">
@@ -3788,10 +3985,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="58.42" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <junction x="58.42" y="25.4"/>
 <label x="55.88" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<junction x="93.98" y="27.94"/>
-<label x="91.44" y="27.94" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="137.16" y="33.02" size="0.8128" layer="95" ratio="12" xref="yes"/>
+<junction x="134.62" y="33.02"/>
 </segment>
 </net>
 <net name="DATA5-L" class="0">
@@ -3805,10 +4001,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="68.58" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <junction x="68.58" y="25.4"/>
 <label x="66.04" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<junction x="93.98" y="30.48"/>
-<label x="91.44" y="30.48" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="104.14" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<label x="101.6" y="43.18" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<junction x="104.14" y="43.18"/>
 </segment>
 </net>
 <net name="DATA6-L" class="0">
@@ -3822,10 +4017,52 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="78.74" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 <junction x="78.74" y="25.4"/>
 <label x="76.2" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<wire x1="93.98" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<label x="101.6" y="33.02" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<junction x="104.14" y="33.02"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
 <pinref part="U$2" gate="G$1" pin="6"/>
-<junction x="93.98" y="33.02"/>
-<label x="91.44" y="33.02" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
+<junction x="134.62" y="30.48"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="134.62" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+<junction x="134.62" y="27.94"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="134.62" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+<junction x="134.62" y="25.4"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="104.14" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="17.78" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="134.62" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
+<junction x="104.14" y="30.48"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="104.14" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="38.1" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="15.24" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
+<junction x="104.14" y="38.1"/>
 </segment>
 </net>
 </nets>
