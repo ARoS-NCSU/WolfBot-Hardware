@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -25071,6 +25071,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="RSENSE" library="rcl" deviceset="R-EU_" device="R2512" value="0.016"/>
 <part name="U$4" library="jst-ph" deviceset="JST-PH2-SMD" device=""/>
 <part name="U$7" library="jst-ph" deviceset="JST-PH2-SMD" device=""/>
+<part name="COUT1" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_A5" value="56uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -25134,6 +25135,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <instance part="RSENSE" gate="G$1" x="101.6" y="-129.54" rot="R90"/>
 <instance part="U$4" gate="G$1" x="194.31" y="-99.568" rot="R180"/>
 <instance part="U$7" gate="G$1" x="192.532" y="-129.286" rot="R180"/>
+<instance part="COUT1" gate="G$1" x="162.56" y="-106.68" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -25299,6 +25301,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <junction x="184.912" y="-129.286"/>
 <junction x="184.912" y="-126.746"/>
+<pinref part="COUT1" gate="G$1" pin="-"/>
+<wire x1="162.56" y1="-111.76" x2="167.64" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="162.56" y="-111.76"/>
 </segment>
 <segment>
 <wire x1="-40.64" y1="-17.78" x2="-17.78" y2="-17.78" width="0.1524" layer="91"/>
@@ -25804,6 +25809,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="186.69" y1="-97.028" x2="186.69" y2="-99.568" width="0.1524" layer="91"/>
 <junction x="186.69" y="-97.028"/>
 <junction x="186.69" y="-99.568"/>
+<pinref part="COUT1" gate="G$1" pin="+"/>
+<wire x1="167.64" y1="-104.14" x2="162.56" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="162.56" y="-104.14"/>
 </segment>
 </net>
 </nets>
