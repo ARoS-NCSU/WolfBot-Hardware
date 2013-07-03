@@ -3631,28 +3631,48 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
 <rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
 </package>
+<package name="MICRO3">
+<description>&lt;b&gt;Micro3 TM Package Outline&lt;/b&gt;&lt;p&gt;
+www.irf.com / irlml5203.pdf</description>
+<wire x1="-1.45" y1="0.65" x2="-0.6" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="-0.6" y1="0.65" x2="0.6" y2="0.65" width="0.1016" layer="51"/>
+<wire x1="0.6" y1="0.65" x2="1.45" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="1.45" y1="-0.65" x2="0.35" y2="-0.65" width="0.1016" layer="51"/>
+<wire x1="0.35" y1="-0.65" x2="-0.35" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="-0.35" y1="-0.65" x2="-1.45" y2="-0.65" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.1016" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.6" y="1.6" size="1.778" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-3.4" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.27" y1="0.66" x2="0.27" y2="1.25" layer="51"/>
+<rectangle x1="-1.22" y1="-1.25" x2="-0.68" y2="-0.65" layer="51"/>
+<rectangle x1="0.68" y1="-1.25" x2="1.22" y2="-0.64" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ANALOG_MUX_8X1">
 <description>CD4051B
 8X1 analog mux
 http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
-<pin name="P$1" x="-10.16" y="10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="P$2" x="-10.16" y="7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="P$3" x="-10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="P$4" x="-10.16" y="2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="P$5" x="-10.16" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="P$6" x="-10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="P$7" x="-10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="P$8" x="-10.16" y="-7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="P$9" x="10.16" y="-7.62" visible="pad" length="middle"/>
-<pin name="P$10" x="10.16" y="-5.08" visible="pad" length="middle"/>
-<pin name="P$11" x="10.16" y="-2.54" visible="pad" length="middle"/>
-<pin name="P$12" x="10.16" y="0" visible="pad" length="middle"/>
-<pin name="P$13" x="10.16" y="2.54" visible="pad" length="middle"/>
-<pin name="P$14" x="10.16" y="5.08" visible="pad" length="middle"/>
-<pin name="P$15" x="10.16" y="7.62" visible="pad" length="middle"/>
-<pin name="P$16" x="10.16" y="10.16" visible="pad" length="middle"/>
+<pin name="P$1" x="-15.24" y="10.16" visible="pad" length="middle"/>
+<pin name="P$2" x="-15.24" y="7.62" visible="pad" length="middle"/>
+<pin name="P$3" x="-15.24" y="5.08" visible="pad" length="middle"/>
+<pin name="P$4" x="-15.24" y="2.54" visible="pad" length="middle"/>
+<pin name="P$5" x="-15.24" y="0" visible="pad" length="middle"/>
+<pin name="P$6" x="-15.24" y="-2.54" visible="pad" length="middle"/>
+<pin name="P$7" x="-15.24" y="-5.08" visible="pad" length="middle"/>
+<pin name="P$8" x="-15.24" y="-7.62" visible="pad" length="middle"/>
+<pin name="P$9" x="15.24" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$11" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$12" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="P$13" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="P$14" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="P$15" x="15.24" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="P$16" x="15.24" y="10.16" visible="pad" length="middle" rot="R180"/>
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
@@ -3677,6 +3697,54 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <text x="-7.62" y="1.905" size="1.27" layer="94">IN 7</text>
 <text x="-7.62" y="6.985" size="1.27" layer="94">IN 6</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="94">INHIB</text>
+</symbol>
+<symbol name="MFPS">
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.5334" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.6162" y1="-0.0508" x2="1.8034" y2="-0.0254" width="0.1524" layer="94"/>
+<wire x1="1.8034" y1="-0.0254" x2="2.0828" y2="0.127" width="0.1524" layer="94"/>
+<wire x1="1.8034" y1="-0.0254" x2="1.8542" y2="-0.3048" width="0.1524" layer="94"/>
+<wire x1="1.8542" y1="-0.3048" x2="1.4986" y2="0.0508" width="0.1524" layer="94"/>
+<wire x1="1.4986" y1="0.0508" x2="1.8034" y2="-0.0254" width="0.1524" layer="94"/>
+<wire x1="1.143" y1="0" x2="0.4572" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.4572" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="0.4826" x2="2.032" y2="-0.6096" width="0.3048" layer="94"/>
+<wire x1="2.032" y1="-0.6096" x2="1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="1.143" y1="0" x2="1.9812" y2="0.4572" width="0.3048" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="5.715" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="-0.635" x2="4.445" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-0.635" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.08" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0.762" x2="4.445" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0.762" x2="4.191" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="0.762" x2="5.969" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="7.62" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.524" y="-3.302" size="0.8128" layer="93">S</text>
+<text x="1.524" y="2.54" size="0.8128" layer="93">D</text>
+<text x="-2.286" y="1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
+<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="point" direction="pas"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<wire x1="1.524" y1="0.0508" x2="1.8542" y2="0.0508" width="0.254" layer="94"/>
+<wire x1="1.8542" y1="0.0508" x2="1.8542" y2="0.1778" width="0.254" layer="94"/>
+<wire x1="1.8542" y1="0.1778" x2="1.905" y2="0.1778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.0254" x2="2.5654" y2="-0.0254" width="0.254" layer="94"/>
+<wire x1="2.5654" y1="-0.0254" x2="2.5654" y2="-1.9304" width="0.254" layer="94"/>
+<wire x1="2.5908" y1="0" x2="0.4572" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3706,6 +3774,24 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRLML5203" prefix="Q">
+<description>&lt;b&gt;BSS138 N-Channel Power MOSFET&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MFPS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3748,6 +3834,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="ngohara_parts" deviceset="8X1_ANALOG_MUX" device=""/>
+<part name="Q1" library="ngohara_parts" deviceset="IRLML5203" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3777,6 +3864,9 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <instance part="GND1" gate="1" x="22.86" y="10.16"/>
 <instance part="GND2" gate="1" x="2.54" y="45.72"/>
 <instance part="U$3" gate="G$1" x="119.38" y="33.02"/>
+<instance part="Q1" gate="G$1" x="15.24" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.32" y="58.42" size="1.778" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3841,16 +3931,27 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <junction x="104.14" y="35.56"/>
 <junction x="104.14" y="27.94"/>
 <junction x="134.62" y="43.18"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="U$3" gate="G$1" pin="P$4"/>
+<pinref part="U$3" gate="G$1" pin="P$7"/>
+<pinref part="U$3" gate="G$1" pin="P$16"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
+<wire x1="5.08" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="5.08" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<junction x="10.16" y="55.88"/>
+</segment>
+<segment>
 <pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
 <label x="12.7" y="15.24" size="1.778" layer="95" xref="yes"/>
-<label x="5.08" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="10.16" y="15.24"/>
+</segment>
+<segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="5.08" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="30.48" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -3861,15 +3962,17 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="60.96" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="1"/>
 <wire x1="71.12" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<junction x="30.48" y="53.34"/>
 <junction x="40.64" y="53.34"/>
 <junction x="50.8" y="53.34"/>
 <junction x="60.96" y="53.34"/>
 <junction x="71.12" y="53.34"/>
 <junction x="81.28" y="53.34"/>
-<wire x1="104.14" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
-<label x="101.6" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-<junction x="104.14" y="25.4"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="20.32" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="55.88" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="55.88"/>
+<junction x="30.48" y="53.34"/>
 </segment>
 </net>
 <net name="DATA1-H" class="0">
@@ -3879,6 +3982,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="30.48" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <junction x="27.94" y="38.1"/>
+<junction x="30.48" y="50.8"/>
 </segment>
 </net>
 <net name="DATA2-H" class="0">
@@ -3888,6 +3992,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="40.64" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="50.8" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <junction x="38.1" y="38.1"/>
+<junction x="40.64" y="50.8"/>
 </segment>
 </net>
 <net name="DATA3-H" class="0">
@@ -3897,6 +4002,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="50.8" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <junction x="48.26" y="38.1"/>
+<junction x="50.8" y="50.8"/>
 </segment>
 </net>
 <net name="DATA4-H" class="0">
@@ -3906,6 +4012,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="58.42" y="38.1"/>
+<junction x="60.96" y="50.8"/>
 </segment>
 </net>
 <net name="DATA5-H" class="0">
@@ -3915,6 +4022,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="71.12" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="50.8" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <junction x="68.58" y="38.1"/>
+<junction x="71.12" y="50.8"/>
 </segment>
 </net>
 <net name="DATA6-H" class="0">
@@ -3924,6 +4032,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="81.28" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="50.8" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <junction x="78.74" y="38.1"/>
+<junction x="81.28" y="50.8"/>
 </segment>
 </net>
 <net name="DATA1-L" class="0">
@@ -3940,6 +4049,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="35.56" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="137.16" y="35.56" size="0.8128" layer="95" ratio="12" xref="yes"/>
 <junction x="134.62" y="35.56"/>
+<pinref part="U$3" gate="G$1" pin="P$13"/>
 </segment>
 </net>
 <net name="DATA2-L" class="0">
@@ -3956,6 +4066,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
 <label x="137.16" y="38.1" size="0.8128" layer="95" ratio="12" xref="yes"/>
 <junction x="134.62" y="38.1"/>
+<pinref part="U$3" gate="G$1" pin="P$14"/>
 </segment>
 </net>
 <net name="DATA3-L" class="0">
@@ -3972,6 +4083,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
 <label x="137.16" y="40.64" size="0.8128" layer="95" ratio="12" xref="yes"/>
 <junction x="134.62" y="40.64"/>
+<pinref part="U$3" gate="G$1" pin="P$15"/>
 </segment>
 </net>
 <net name="DATA4-L" class="0">
@@ -3988,6 +4100,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <label x="137.16" y="33.02" size="0.8128" layer="95" ratio="12" xref="yes"/>
 <junction x="134.62" y="33.02"/>
+<pinref part="U$3" gate="G$1" pin="P$12"/>
 </segment>
 </net>
 <net name="DATA5-L" class="0">
@@ -4004,6 +4117,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="104.14" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <label x="101.6" y="43.18" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
 <junction x="104.14" y="43.18"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="DATA6-L" class="0">
@@ -4020,6 +4134,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="104.14" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <label x="101.6" y="33.02" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
 <junction x="104.14" y="33.02"/>
+<pinref part="U$3" gate="G$1" pin="P$5"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4027,6 +4142,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <pinref part="U$2" gate="G$1" pin="6"/>
 <wire x1="134.62" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="134.62" y="30.48"/>
+<junction x="157.48" y="30.48"/>
+<pinref part="U$3" gate="G$1" pin="P$11"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -4034,6 +4151,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <pinref part="U$2" gate="G$1" pin="5"/>
 <wire x1="134.62" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <junction x="134.62" y="27.94"/>
+<junction x="157.48" y="27.94"/>
+<pinref part="U$3" gate="G$1" pin="P$10"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4041,6 +4160,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <pinref part="U$2" gate="G$1" pin="4"/>
 <wire x1="134.62" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <junction x="134.62" y="25.4"/>
+<junction x="157.48" y="25.4"/>
+<pinref part="U$3" gate="G$1" pin="P$9"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4052,6 +4173,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <pinref part="U$2" gate="G$1" pin="3"/>
 <wire x1="134.62" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <junction x="104.14" y="30.48"/>
+<junction x="157.48" y="22.86"/>
+<pinref part="U$3" gate="G$1" pin="P$6"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4063,6 +4186,28 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <pinref part="U$2" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <junction x="104.14" y="38.1"/>
+<junction x="157.48" y="20.32"/>
+<pinref part="U$3" gate="G$1" pin="P$3"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<junction x="104.14" y="25.4"/>
+<pinref part="U$3" gate="G$1" pin="P$8"/>
+<wire x1="104.14" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
+<label x="101.6" y="25.4" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DMS_ON" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="12.7" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="5.08" y="50.8" size="1.6764" layer="95" ratio="7" rot="R180" xref="yes"/>
+<wire x1="157.48" y1="17.78" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
+<label x="152.4" y="17.78" size="1.6764" layer="95" ratio="7" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<junction x="157.48" y="17.78"/>
+<junction x="12.7" y="50.8"/>
 </segment>
 </net>
 </nets>
