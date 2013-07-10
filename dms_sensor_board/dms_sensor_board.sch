@@ -3856,8 +3856,6 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="-0.6" y1="-3" x2="0.6" y2="-3" width="0.254" layer="21"/>
 <smd name="P$2" x="0" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
 <smd name="P$1" x="0" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
-<hole x="-2.15" y="0" drill="2.41"/>
-<hole x="2.15" y="0" drill="2.41"/>
 <pad name="P$3" x="-2.15" y="0" drill="2.41"/>
 <pad name="P$4" x="2.15" y="0" drill="2.41"/>
 </package>
@@ -4693,7 +4691,11 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.6096" drill="0">
+<class number="0" name="default" width="0.254" drill="0.508">
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="power" width="0.508" drill="0.508">
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -4761,7 +4763,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="15.24" y1="15.24" x2="15.24" y2="10.16" width="0.1524" layer="91"/>
@@ -4783,7 +4785,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <junction x="33.02" y="-2.54"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="1">
 <segment>
 <wire x1="5.08" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <label x="5.08" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -5052,7 +5054,7 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <label x="152.4" y="17.78" size="1.6764" layer="95" ratio="7" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N_GND" class="0">
+<net name="N_GND" class="1">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>

@@ -3524,12 +3524,12 @@ Source: AVX .. aphvc.pdf</description>
 <packages>
 <package name="DIL08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="51" curve="-180"/>
 <pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
@@ -3539,7 +3539,7 @@ Source: AVX .. aphvc.pdf</description>
 <pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="3.556" y="0.635" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
 </package>
 <package name="SOCKET-08">
 <description>&lt;b&gt;Dual In Line Socket&lt;/b&gt;</description>
@@ -4343,14 +4343,14 @@ Source: AVX .. aphvc.pdf</description>
 <package name="MICRO3">
 <description>&lt;b&gt;Micro3 TM Package Outline&lt;/b&gt;&lt;p&gt;
 www.irf.com / irlml5203.pdf</description>
-<wire x1="-1.45" y1="0.65" x2="-0.6" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="-1.45" y1="0.65" x2="-0.6" y2="0.65" width="0.1016" layer="51"/>
 <wire x1="-0.6" y1="0.65" x2="0.6" y2="0.65" width="0.1016" layer="51"/>
-<wire x1="0.6" y1="0.65" x2="1.45" y2="0.65" width="0.1016" layer="21"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="0.6" y1="0.65" x2="1.45" y2="0.65" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.1016" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="0.35" y2="-0.65" width="0.1016" layer="51"/>
-<wire x1="0.35" y1="-0.65" x2="-0.35" y2="-0.65" width="0.1016" layer="21"/>
+<wire x1="0.35" y1="-0.65" x2="-0.35" y2="-0.65" width="0.1016" layer="51"/>
 <wire x1="-0.35" y1="-0.65" x2="-1.45" y2="-0.65" width="0.1016" layer="51"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.1016" layer="21"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.1016" layer="51"/>
 <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
@@ -7458,19 +7458,19 @@ type 0309, grid 2.5 mm</description>
 <library name="jst-ph">
 <packages>
 <package name="JST-PH4-SMD">
-<wire x1="0" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
-<wire x1="5" y1="0" x2="6.9" y2="0" width="0.127" layer="21"/>
-<wire x1="6.9" y1="0" x2="11.9" y2="0" width="0.127" layer="21"/>
-<wire x1="11.9" y1="0" x2="11.9" y2="5" width="0.127" layer="21"/>
-<wire x1="11.9" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0.8" y1="0.8" x2="0.8" y2="4.2" width="0.127" layer="21"/>
-<wire x1="0.8" y1="4.2" x2="11.1" y2="4.2" width="0.127" layer="21"/>
-<wire x1="11.1" y1="4.2" x2="11.1" y2="0.8" width="0.127" layer="21"/>
-<wire x1="11.1" y1="0.8" x2="6.9" y2="0.8" width="0.127" layer="21"/>
-<wire x1="6.9" y1="0.8" x2="6.9" y2="0" width="0.127" layer="21"/>
-<wire x1="5" y1="0" x2="5" y2="0.8" width="0.127" layer="21"/>
-<wire x1="5" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="5" y2="0" width="0.127" layer="51"/>
+<wire x1="5" y1="0" x2="6.9" y2="0" width="0.127" layer="51"/>
+<wire x1="6.9" y1="0" x2="11.9" y2="0" width="0.127" layer="51"/>
+<wire x1="11.9" y1="0" x2="11.9" y2="5" width="0.127" layer="51"/>
+<wire x1="11.9" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="4.2" width="0.127" layer="51"/>
+<wire x1="0.8" y1="4.2" x2="11.1" y2="4.2" width="0.127" layer="51"/>
+<wire x1="11.1" y1="4.2" x2="11.1" y2="0.8" width="0.127" layer="51"/>
+<wire x1="11.1" y1="0.8" x2="6.9" y2="0.8" width="0.127" layer="51"/>
+<wire x1="6.9" y1="0.8" x2="6.9" y2="0" width="0.127" layer="51"/>
+<wire x1="5" y1="0" x2="5" y2="0.8" width="0.127" layer="51"/>
+<wire x1="5" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
 <smd name="P$1" x="2.975" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="4.975" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$3" x="6.975" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
@@ -7486,34 +7486,34 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <smd name="P$2" x="4.975" y="4.75" dx="5.5" dy="1.2" layer="1" rot="R90"/>
 <smd name="MOUNT1" x="0.575" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
 <smd name="MOUNT2" x="7.375" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
-<wire x1="0" y1="0" x2="3" y2="0" width="0.127" layer="21"/>
-<wire x1="3" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
-<wire x1="5" y1="0" x2="7.9" y2="0" width="0.127" layer="21"/>
-<wire x1="7.9" y1="0" x2="7.9" y2="1.6" width="0.127" layer="21"/>
-<wire x1="7.9" y1="1.6" x2="7.9" y2="2.2" width="0.127" layer="21"/>
-<wire x1="7.9" y1="2.2" x2="7.9" y2="5" width="0.127" layer="21"/>
-<wire x1="7.9" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="2.2" width="0.127" layer="21"/>
-<circle x="3" y="1" radius="0.4" width="0.127" layer="21"/>
-<wire x1="0" y1="2.2" x2="0" y2="1.6" width="0.127" layer="21"/>
-<wire x1="0" y1="1.6" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="2.2" x2="0" y2="1.6" width="0.127" layer="21" curve="-180"/>
-<wire x1="7.9" y1="1.6" x2="7.9" y2="2.2" width="0.127" layer="21" curve="-180"/>
-<wire x1="0.5" y1="0.5" x2="0.5" y2="4.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="4.5" x2="7.4" y2="4.5" width="0.127" layer="21"/>
-<wire x1="7.4" y1="4.5" x2="7.4" y2="0.5" width="0.127" layer="21"/>
-<wire x1="7.4" y1="0.5" x2="5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="5" y1="0.5" x2="5" y2="0" width="0.127" layer="21"/>
-<wire x1="0.5" y1="0.5" x2="3" y2="0.5" width="0.127" layer="21"/>
-<wire x1="3" y1="0.5" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="3" y2="0" width="0.127" layer="51"/>
+<wire x1="3" y1="0" x2="5" y2="0" width="0.127" layer="51"/>
+<wire x1="5" y1="0" x2="7.9" y2="0" width="0.127" layer="51"/>
+<wire x1="7.9" y1="0" x2="7.9" y2="1.6" width="0.127" layer="51"/>
+<wire x1="7.9" y1="1.6" x2="7.9" y2="2.2" width="0.127" layer="51"/>
+<wire x1="7.9" y1="2.2" x2="7.9" y2="5" width="0.127" layer="51"/>
+<wire x1="7.9" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="2.2" width="0.127" layer="51"/>
+<circle x="3" y="1" radius="0.4" width="0.127" layer="51"/>
+<wire x1="0" y1="2.2" x2="0" y2="1.6" width="0.127" layer="51"/>
+<wire x1="0" y1="1.6" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="2.2" x2="0" y2="1.6" width="0.127" layer="51" curve="-180"/>
+<wire x1="7.9" y1="1.6" x2="7.9" y2="2.2" width="0.127" layer="51" curve="-180"/>
+<wire x1="0.5" y1="0.5" x2="0.5" y2="4.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="4.5" x2="7.4" y2="4.5" width="0.127" layer="51"/>
+<wire x1="7.4" y1="4.5" x2="7.4" y2="0.5" width="0.127" layer="51"/>
+<wire x1="7.4" y1="0.5" x2="5" y2="0.5" width="0.127" layer="51"/>
+<wire x1="5" y1="0.5" x2="5" y2="0" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="3" y2="0.5" width="0.127" layer="51"/>
+<wire x1="3" y1="0.5" x2="3" y2="0" width="0.127" layer="51"/>
 </package>
 <package name="JST-PH10-SMD">
-<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="21"/>
-<wire x1="10" y1="0" x2="13.9" y2="0" width="0.127" layer="21"/>
-<wire x1="13.9" y1="0" x2="23.95" y2="0" width="0.127" layer="21"/>
-<wire x1="23.95" y1="0" x2="23.95" y2="5" width="0.127" layer="21"/>
-<wire x1="23.95" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="51"/>
+<wire x1="10" y1="0" x2="13.9" y2="0" width="0.127" layer="51"/>
+<wire x1="13.9" y1="0" x2="23.95" y2="0" width="0.127" layer="51"/>
+<wire x1="23.95" y1="0" x2="23.95" y2="5" width="0.127" layer="51"/>
+<wire x1="23.95" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
 <smd name="P$1" x="2.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="4.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$3" x="6.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
@@ -7524,13 +7524,13 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <smd name="P$8" x="16.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$9" x="18.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$10" x="20.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
-<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="21"/>
-<wire x1="1" y1="4" x2="22.9" y2="4" width="0.127" layer="21"/>
-<wire x1="22.9" y1="4" x2="22.9" y2="1" width="0.127" layer="21"/>
-<wire x1="22.9" y1="1" x2="13.9" y2="1" width="0.127" layer="21"/>
-<wire x1="13.9" y1="1" x2="13.9" y2="0" width="0.127" layer="21"/>
-<wire x1="10" y1="0" x2="10" y2="1" width="0.127" layer="21"/>
-<wire x1="10" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="51"/>
+<wire x1="1" y1="4" x2="22.9" y2="4" width="0.127" layer="51"/>
+<wire x1="22.9" y1="4" x2="22.9" y2="1" width="0.127" layer="51"/>
+<wire x1="22.9" y1="1" x2="13.9" y2="1" width="0.127" layer="51"/>
+<wire x1="13.9" y1="1" x2="13.9" y2="0" width="0.127" layer="51"/>
+<wire x1="10" y1="0" x2="10" y2="1" width="0.127" layer="51"/>
+<wire x1="10" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
 <smd name="P$11" x="0.575" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
 <smd name="P$12" x="23.375" y="2.6" dx="3" dy="1.6" layer="1" rot="R90"/>
 </package>
@@ -7733,14 +7733,14 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <description>Molex Micro-Fit 3.0 - Header Shrouded, Surface mount, Right Angle, Solderable retention clips;   P/N: SD-43045-0406, SD-43045-0407, SD-43045-0408
 
 &lt;p&gt;&lt;a href='http://www.molex.com/pdm_docs/sd/430450206_sd.pdf'&gt;http://www.molex.com/pdm_docs/sd/430450206_sd.pdf&lt;/a&gt;</description>
-<wire x1="4.825" y1="3.71" x2="4.825" y2="-2.4" width="0.254" layer="21"/>
+<wire x1="4.825" y1="3.71" x2="4.825" y2="-2.4" width="0.254" layer="51"/>
 <wire x1="3" y1="-4.6" x2="-3" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-4.825" y1="-2.5" x2="-4.825" y2="3.71" width="0.254" layer="21"/>
+<wire x1="-4.825" y1="-2.5" x2="-4.825" y2="3.71" width="0.254" layer="51"/>
 <wire x1="-4.83" y1="5.31" x2="-5.08" y2="5.31" width="0.254" layer="21"/>
 <wire x1="-5.08" y1="5.31" x2="-5.08" y2="3.71" width="0.254" layer="21"/>
 <wire x1="-5.08" y1="3.71" x2="-4.825" y2="3.71" width="0.254" layer="21"/>
 <wire x1="-4.825" y1="5.31" x2="-3.5" y2="5.31" width="0.254" layer="21"/>
-<wire x1="-3.5" y1="5.31" x2="3.5" y2="5.31" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="5.31" x2="3.5" y2="5.31" width="0.254" layer="51"/>
 <wire x1="3.5" y1="5.31" x2="5.08" y2="5.31" width="0.254" layer="21"/>
 <wire x1="5.08" y1="5.31" x2="5.08" y2="3.71" width="0.254" layer="21"/>
 <wire x1="5.08" y1="3.71" x2="4.825" y2="3.71" width="0.254" layer="21"/>
@@ -7760,8 +7760,6 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <smd name="P$2" x="-1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
 <smd name="P$3" x="1.5" y="10.1" dx="2.92" dy="1.27" layer="1" rot="R90"/>
 <smd name="P$1" x="1.5" y="5.47" dx="2.92" dy="1.27" layer="1" rot="R90"/>
-<hole x="-3.65" y="0" drill="2.41"/>
-<hole x="3.65" y="0" drill="2.41"/>
 <pad name="P$5" x="-3.65" y="0" drill="2.41"/>
 <pad name="P$6" x="3.65" y="0" drill="2.41"/>
 </package>
@@ -8949,6 +8947,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <class number="0" name="default" width="0.254" drill="0.508">
 <clearance class="0" value="0.254"/>
 </class>
+<class number="1" name="power" width="0.508" drill="0.508">
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <parts>
 <part name="C18" library="rcl" deviceset="C-US" device="C1206K" value="10uF"/>
@@ -9052,7 +9053,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="22.86" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
@@ -9118,7 +9119,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <junction x="147.32" y="91.44"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <wire x1="22.86" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -9329,7 +9330,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <label x="60.96" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="1">
 <segment>
 <wire x1="7.62" y1="134.62" x2="2.54" y2="134.62" width="0.1524" layer="91"/>
 <label x="2.54" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9552,7 +9553,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <junction x="137.16" y="99.06"/>
 </segment>
 </net>
-<net name="N_GND" class="0">
+<net name="N_GND" class="1">
 <segment>
 <pinref part="AMB2" gate="G$1" pin="2"/>
 <junction x="147.32" y="83.82"/>
