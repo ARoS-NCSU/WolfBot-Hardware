@@ -8,6 +8,11 @@ $(name)-gerber.zip: $(gerbers)
 
 zip: $(name)-gerber.zip
 
+view:
+	gerbv $(name).gt? $(name).gb? $(name).drd &
+
 .PHONY: clean
 clean:
 	rm -f $(gerbers) $(name)-gerber.zip *.b#? *.s#? *.dri *.gpi *.pro
+
+# vim: set noexpandtab:
