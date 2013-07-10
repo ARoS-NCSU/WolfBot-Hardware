@@ -5210,19 +5210,19 @@ type 0309, grid 2.5 mm</description>
 <library name="jst-ph">
 <packages>
 <package name="JST-PH-SMD-90*">
-<wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="21"/>
-<wire x1="8" y1="0" x2="12" y2="0" width="0.127" layer="21"/>
-<wire x1="12" y1="0" x2="19.9" y2="0" width="0.127" layer="21"/>
-<wire x1="19.9" y1="0" x2="19.9" y2="5" width="0.127" layer="21"/>
-<wire x1="19.9" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="8" y1="0" x2="8" y2="1" width="0.127" layer="21"/>
-<wire x1="8" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="21"/>
-<wire x1="1" y1="4" x2="18.9" y2="4" width="0.127" layer="21"/>
-<wire x1="18.9" y1="4" x2="18.9" y2="1" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="51"/>
+<wire x1="8" y1="0" x2="12" y2="0" width="0.127" layer="51"/>
+<wire x1="12" y1="0" x2="19.9" y2="0" width="0.127" layer="51"/>
+<wire x1="19.9" y1="0" x2="19.9" y2="5" width="0.127" layer="51"/>
+<wire x1="19.9" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="8" y1="0" x2="8" y2="1" width="0.127" layer="51"/>
+<wire x1="8" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="51"/>
+<wire x1="1" y1="4" x2="18.9" y2="4" width="0.127" layer="51"/>
+<wire x1="18.9" y1="4" x2="18.9" y2="1" width="0.127" layer="51"/>
 <wire x1="18.9" y1="1" x2="12" y2="1" width="0.127" layer="21"/>
-<wire x1="12" y1="1" x2="12" y2="0" width="0.127" layer="21"/>
+<wire x1="12" y1="1" x2="12" y2="0" width="0.127" layer="51"/>
 <smd name="P$1" x="2.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="4.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$3" x="6.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>

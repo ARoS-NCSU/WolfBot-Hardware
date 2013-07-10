@@ -3423,12 +3423,12 @@ type 0309, grid 2.5 mm</description>
 <library name="jst-ph">
 <packages>
 <package name="JST-PH6-SMD">
-<wire x1="0" y1="0" x2="7" y2="0" width="0.127" layer="21"/>
-<wire x1="7" y1="0" x2="9" y2="0" width="0.127" layer="21"/>
-<wire x1="9" y1="0" x2="15.95" y2="0" width="0.127" layer="21"/>
-<wire x1="15.95" y1="0" x2="15.95" y2="5" width="0.127" layer="21"/>
-<wire x1="15.95" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="7" y2="0" width="0.127" layer="51"/>
+<wire x1="7" y1="0" x2="9" y2="0" width="0.127" layer="51"/>
+<wire x1="9" y1="0" x2="15.95" y2="0" width="0.127" layer="51"/>
+<wire x1="15.95" y1="0" x2="15.95" y2="5" width="0.127" layer="51"/>
+<wire x1="15.95" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
 <smd name="P$1" x="2.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="4.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$3" x="6.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
@@ -3437,13 +3437,13 @@ type 0309, grid 2.5 mm</description>
 <smd name="P$6" x="12.975" y="4.5" dx="5" dy="1" layer="1" rot="R90"/>
 <smd name="P$7" x="0.575" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
 <smd name="P$8" x="15.375" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
-<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="21"/>
-<wire x1="1" y1="4" x2="15.1" y2="4" width="0.127" layer="21"/>
-<wire x1="15.1" y1="4" x2="15.1" y2="1" width="0.127" layer="21"/>
-<wire x1="15.1" y1="1" x2="9" y2="1" width="0.127" layer="21"/>
-<wire x1="9" y1="1" x2="9" y2="0" width="0.127" layer="21"/>
-<wire x1="7" y1="0" x2="7" y2="1" width="0.127" layer="21"/>
-<wire x1="7" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="51"/>
+<wire x1="1" y1="4" x2="15.1" y2="4" width="0.127" layer="51"/>
+<wire x1="15.1" y1="4" x2="15.1" y2="1" width="0.127" layer="51"/>
+<wire x1="15.1" y1="1" x2="9" y2="1" width="0.127" layer="51"/>
+<wire x1="9" y1="1" x2="9" y2="0" width="0.127" layer="51"/>
+<wire x1="7" y1="0" x2="7" y2="1" width="0.127" layer="51"/>
+<wire x1="7" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
 <text x="-0.8" y="0" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 <text x="17.8" y="0" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
 </package>

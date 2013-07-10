@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="14" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1434,19 +1434,19 @@ chip</description>
 <library name="jst-ph">
 <packages>
 <package name="JST-PH-SMD-90*">
-<wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="21"/>
-<wire x1="8" y1="0" x2="12" y2="0" width="0.127" layer="21"/>
-<wire x1="12" y1="0" x2="19.9" y2="0" width="0.127" layer="21"/>
-<wire x1="19.9" y1="0" x2="19.9" y2="5" width="0.127" layer="21"/>
-<wire x1="19.9" y1="5" x2="0" y2="5" width="0.127" layer="21"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="8" y1="0" x2="8" y2="1" width="0.127" layer="21"/>
-<wire x1="8" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="21"/>
-<wire x1="1" y1="4" x2="18.9" y2="4" width="0.127" layer="21"/>
-<wire x1="18.9" y1="4" x2="18.9" y2="1" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="51"/>
+<wire x1="8" y1="0" x2="12" y2="0" width="0.127" layer="51"/>
+<wire x1="12" y1="0" x2="19.9" y2="0" width="0.127" layer="51"/>
+<wire x1="19.9" y1="0" x2="19.9" y2="5" width="0.127" layer="51"/>
+<wire x1="19.9" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
+<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="8" y1="0" x2="8" y2="1" width="0.127" layer="51"/>
+<wire x1="8" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="51"/>
+<wire x1="1" y1="4" x2="18.9" y2="4" width="0.127" layer="51"/>
+<wire x1="18.9" y1="4" x2="18.9" y2="1" width="0.127" layer="51"/>
 <wire x1="18.9" y1="1" x2="12" y2="1" width="0.127" layer="21"/>
-<wire x1="12" y1="1" x2="12" y2="0" width="0.127" layer="21"/>
+<wire x1="12" y1="1" x2="12" y2="0" width="0.127" layer="51"/>
 <smd name="P$1" x="2.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$2" x="4.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
 <smd name="P$3" x="6.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
@@ -1838,7 +1838,7 @@ design rules under a new name.</description>
 <wire x1="18.415" y1="27.94" x2="17.272" y2="27.94" width="0.6096" layer="16"/>
 <wire x1="17.272" y1="27.94" x2="16.002" y2="26.67" width="0.508" layer="16"/>
 <wire x1="16.002" y1="26.67" x2="10.16" y2="26.67" width="0.508" layer="16"/>
-<via x="10.16" y="26.67" extent="1-16" drill="0.6"/>
+<via x="10.16" y="26.67" extent="1-16" drill="0.508"/>
 <wire x1="10.16" y1="26.67" x2="10.16" y2="39.878" width="0.508" layer="1"/>
 <wire x1="10.16" y1="39.878" x2="13.462" y2="43.3578" width="0.508" layer="1"/>
 <wire x1="13.462" y1="43.3578" x2="33.528" y2="43.3578" width="0.508" layer="1"/>
@@ -1970,12 +1970,12 @@ design rules under a new name.</description>
 <wire x1="38.85854375" y1="43.4047" x2="38.8360875" y2="43.328971875" width="0.508" layer="1"/>
 <wire x1="38.8360875" y1="43.328971875" x2="38.8366" y2="43.2816" width="0.508" layer="1"/>
 <wire x1="38.855628125" y1="42.9514" x2="38.855628125" y2="36.84304375" width="0.508" layer="1"/>
-<via x="38.855628125" y="36.84304375" extent="1-16" drill="0.6"/>
+<via x="38.855628125" y="36.84304375" extent="1-16" drill="0.508"/>
 <wire x1="11.731371875" y1="43.862371875" x2="37.5158" y2="43.8658" width="0.508" layer="16"/>
 <wire x1="37.5158" y1="43.8658" x2="38.0238" y2="43.8658" width="0.508" layer="16"/>
 <wire x1="38.0238" y1="43.8658" x2="38.0238" y2="43.862371875" width="0.508" layer="16"/>
 <wire x1="38.0238" y1="43.862371875" x2="38.8360875" y2="43.328971875" width="0.508" layer="16"/>
-<via x="38.8360875" y="43.328971875" extent="1-16" drill="0.6"/>
+<via x="38.8360875" y="43.328971875" extent="1-16" drill="0.508"/>
 <wire x1="38.8360875" y1="43.328971875" x2="38.85854375" y2="42.995828125" width="0.508" layer="1"/>
 <wire x1="38.85854375" y1="42.995828125" x2="38.85854375" y2="43.4047" width="0.6096" layer="1"/>
 </signal>
