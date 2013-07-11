@@ -1,4 +1,4 @@
-name = h-bridge
+name = powerboard
 
 gerbers = $(name).gbl $(name).gbo $(name).gbs $(name).gtl $(name).gto $(name).gts $(name).drd
 default: zip

@@ -1,4 +1,4 @@
-name = h-bridge
+name = dms_sensor_board
 
 gerbers = $(name).gbl $(name).gbo $(name).gbs $(name).gtl $(name).gto $(name).gts $(name).drd
 default: zip
