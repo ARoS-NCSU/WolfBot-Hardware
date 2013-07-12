@@ -5213,26 +5213,26 @@ type 0309, grid 2.5 mm</description>
 <wire x1="0" y1="0" x2="8" y2="0" width="0.127" layer="51"/>
 <wire x1="8" y1="0" x2="12" y2="0" width="0.127" layer="51"/>
 <wire x1="12" y1="0" x2="19.9" y2="0" width="0.127" layer="51"/>
-<wire x1="19.9" y1="0" x2="19.9" y2="5" width="0.127" layer="51"/>
-<wire x1="19.9" y1="5" x2="0" y2="5" width="0.127" layer="51"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="19.9" y1="0" x2="19.9" y2="7.6" width="0.127" layer="51"/>
+<wire x1="19.9" y1="7.6" x2="0" y2="7.6" width="0.127" layer="51"/>
+<wire x1="0" y1="7.6" x2="0" y2="0" width="0.127" layer="51"/>
 <wire x1="8" y1="0" x2="8" y2="1" width="0.127" layer="51"/>
 <wire x1="8" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
-<wire x1="1" y1="1" x2="1" y2="4" width="0.127" layer="51"/>
-<wire x1="1" y1="4" x2="18.9" y2="4" width="0.127" layer="51"/>
-<wire x1="18.9" y1="4" x2="18.9" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="2.6" width="0.127" layer="51"/>
+<wire x1="1" y1="2.6" x2="18.9" y2="2.6" width="0.127" layer="51"/>
+<wire x1="18.9" y1="2.6" x2="18.9" y2="1" width="0.127" layer="51"/>
 <wire x1="18.9" y1="1" x2="12" y2="1" width="0.127" layer="21"/>
 <wire x1="12" y1="1" x2="12" y2="0" width="0.127" layer="51"/>
-<smd name="P$1" x="2.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$2" x="4.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$3" x="6.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$4" x="8.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$5" x="10.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$6" x="12.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$7" x="14.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$8" x="16.95" y="4.5" dx="5.5" dy="1" layer="1" rot="R90"/>
-<smd name="P$9" x="0.55" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$10" x="19.35" y="2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$1" x="2.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="4.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$3" x="6.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$4" x="8.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$5" x="10.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$6" x="12.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$7" x="14.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$8" x="16.95" y="7.25" dx="3.5" dy="1" layer="1" rot="R90"/>
+<smd name="P$9" x="0.55" y="1.9" dx="3.4" dy="1.5" layer="1" rot="R90"/>
+<smd name="P$10" x="19.35" y="1.9" dx="3.4" dy="1.5" layer="1" rot="R90"/>
 <text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="22.86" y="0" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
