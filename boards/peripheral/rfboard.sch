@@ -4420,9 +4420,9 @@ www.irf.com / irlml5203.pdf</description>
 <devices>
 <device name="" package="MICRO3">
 <connects>
-<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8981,10 +8981,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="AMB2" library="resistor" deviceset="R-US_" device="R0805" value="96k"/>
 <part name="U$1" library="jst-ph" deviceset="JST-PH10-SMD" device=""/>
 <part name="U$3" library="jst-ph" deviceset="JST-PH10-SMD" device=""/>
-<part name="Q5" library="ngohara_parts" deviceset="IRLML5203" device=""/>
 <part name="X1" library="con-molex-micro-fit-3_0" deviceset="HEADER_POS4_?" device="43045-0406"/>
-<part name="RIN" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="RGS" library="resistor" deviceset="R-US_" device="R0805" value="2.2k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9043,12 +9040,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <instance part="AMB2" gate="G$1" x="142.24" y="83.82"/>
 <instance part="U$1" gate="G$1" x="81.28" y="58.42" rot="MR180"/>
 <instance part="U$3" gate="G$1" x="53.34" y="55.88"/>
-<instance part="Q5" gate="G$1" x="137.16" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="139.7" y="111.76" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="X1" gate="G$1" x="2.54" y="58.42" rot="R180"/>
-<instance part="RIN" gate="G$1" x="127" y="101.6"/>
-<instance part="RGS" gate="G$1" x="142.24" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -9086,17 +9078,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <label x="139.7" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="142.24" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 <junction x="154.94" y="106.68"/>
-<junction x="142.24" y="106.68"/>
-<pinref part="RGS" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="99.06" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<junction x="147.32" y="99.06"/>
-<junction x="149.86" y="106.68"/>
 </segment>
 </net>
 <net name="AMB_OUT" class="0">
@@ -9537,20 +9521,6 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <junction x="119.38" y="101.6"/>
-<pinref part="RIN" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q5" gate="G$1" pin="G"/>
-<pinref part="RIN" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="101.6" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="RGS" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<junction x="134.62" y="101.6"/>
-<junction x="132.08" y="101.6"/>
-<junction x="137.16" y="99.06"/>
 </segment>
 </net>
 <net name="N_GND" class="1">
@@ -9571,9 +9541,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="132.08" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <junction x="134.62" y="119.38"/>
 <junction x="149.86" y="124.46"/>
-<pinref part="Q5" gate="G$1" pin="D"/>
 <wire x1="132.08" y1="111.76" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
-<junction x="132.08" y="106.68"/>
 <wire x1="147.32" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 <junction x="165.1" y="111.76"/>

@@ -24987,8 +24987,8 @@ http://www.vishay.com/docs/94233/50wq04fn.pdf</description>
 <part name="R5" library="rcl" deviceset="R-US_" device="R1206" value="250"/>
 <part name="R6" library="rcl" deviceset="R-TRIMM" device="3224W"/>
 <part name="R7" library="rcl" deviceset="R-TRIMM" device="3224W"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R3216"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R3216"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R3216" value="500"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R3216" value="500"/>
 <part name="U$2" library="40xx" deviceset="LM3488" device=""/>
 <part name="COUT" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_A5" value="56uF"/>
 <part name="LIN" library="SparkFun-Passives" deviceset="INDUCTOR" device="SRU1038" value="6.2uH"/>
