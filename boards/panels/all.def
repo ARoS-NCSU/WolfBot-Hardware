@@ -1,0 +1,35 @@
+# rows are bottom to top  
+
+# must start with row
+Row {
+
+Col {
+  Row {       
+      Motor
+      DMS
+      Power
+  }   
+  Row {       
+      Motor
+      DMS
+      Power
+  }
+  Row {       
+      Motor
+      DMS
+      Power
+  }
+} 
+Col {
+  Row {       
+      Periph Rotate
+  }   
+  Row {       
+      Periph Rotate
+  }   
+  Row {       
+      Periph Rotate
+  }   
+}
+
+}

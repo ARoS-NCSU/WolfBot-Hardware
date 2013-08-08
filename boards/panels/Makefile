@@ -1,4 +1,5 @@
-name = motor_and_periph
+def = all
+name = merged
 
 gerbers = $(name).gbl $(name).gbo $(name).gbs $(name).gtl $(name).gto $(name).gts $(name).drd
 
@@ -9,9 +10,9 @@ zip: $(name)-gerber.zip
 $(name)-gerber.zip: $(name).gtl
 	zip $(name)-gerber.zip $(gerbers)
 
-$(name).gtl: $(name).def $(name).cfg
-	gerbmerge $(name).cfg $(name).def
-
+$(name).gtl: $(def).def gerbmerge.cfg
+#	gerbmerge $(name).cfg $(name).def
+	gerbmerge gerbmerge.cfg $(def).def
 
 view:
 	gerbv $(name).gt? $(name).gb? $(name).drd &
