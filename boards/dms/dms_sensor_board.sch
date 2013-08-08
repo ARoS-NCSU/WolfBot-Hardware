@@ -4691,10 +4691,10 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.508">
+<class number="0" name="default" width="0.381" drill="0.508">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="power" width="0.508" drill="0.508">
+<class number="1" name="power" width="0.635" drill="0.508">
 <clearance class="1" value="0.508"/>
 </class>
 </classes>
@@ -4879,6 +4879,10 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="22.86" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
 <junction x="15.24" y="55.88"/>
 <wire x1="15.24" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
+<label x="144.78" y="43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="MUX1" gate="G$1" pin="P$16"/>
+<junction x="134.62" y="43.18"/>
 </segment>
 <segment>
 <wire x1="10.16" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
@@ -5081,20 +5085,6 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <junction x="162.56" y="17.78"/>
 </segment>
 </net>
-<net name="N_GND" class="1">
-<segment>
-<pinref part="MUX1" gate="G$1" pin="P$4"/>
-<junction x="104.14" y="35.56"/>
-<wire x1="96.52" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
-<label x="96.52" y="35.56" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="MUX1" gate="G$1" pin="P$16"/>
-<junction x="134.62" y="43.18"/>
-<label x="142.24" y="43.18" size="0.8128" layer="95" ratio="12" xref="yes"/>
-</segment>
-</net>
 <net name="A_H" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -5106,6 +5096,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="139.7" y="30.48" size="1.27" layer="95" xref="yes"/>
 <junction x="73.66" y="-12.7"/>
+<pinref part="MUX1" gate="G$1" pin="P$11"/>
+<junction x="134.62" y="30.48"/>
 </segment>
 </net>
 <net name="B_H" class="0">
@@ -5119,6 +5111,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="134.62" y1="27.94" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <label x="139.7" y="27.94" size="1.27" layer="95" xref="yes"/>
 <junction x="73.66" y="-40.64"/>
+<pinref part="MUX1" gate="G$1" pin="P$10"/>
+<junction x="134.62" y="27.94"/>
 </segment>
 </net>
 <net name="C_H" class="0">
@@ -5131,6 +5125,8 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <label x="116.84" y="-7.62" size="1.27" layer="95" xref="yes"/>
 <wire x1="134.62" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <label x="139.7" y="25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="MUX1" gate="G$1" pin="P$9"/>
+<junction x="134.62" y="25.4"/>
 </segment>
 </net>
 <net name="IH_H" class="0">
@@ -5256,14 +5252,6 @@ http://www.ti.com/lit/ds/symlink/cd4051b.pdf</description>
 <wire x1="111.76" y1="-55.88" x2="111.76" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="-55.88"/>
 <junction x="162.56" y="22.86"/>
-</segment>
-</net>
-<net name="N$1" class="1">
-<segment>
-<pinref part="MUX1" gate="G$1" pin="P$2"/>
-<junction x="104.14" y="40.64"/>
-<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<label x="96.52" y="40.64" size="0.8128" layer="95" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

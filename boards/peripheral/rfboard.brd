@@ -150,31 +150,30 @@
 <wire x1="30" y1="60" x2="30" y2="0" width="0" layer="20"/>
 <wire x1="30" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="60" x2="0" y2="0" width="0" layer="20"/>
-<text x="13.6144" y="7.0104" size="0.6096" layer="26" rot="MR180">ABM_ON</text>
 <text x="16.9926" y="8.4582" size="0.6096" layer="26" rot="MR0">AMB_OUT</text>
-<text x="29.21" y="37.1348" size="0.6096" layer="26" rot="MR0">3.3 Out</text>
-<text x="3.8354" y="37.084" size="0.6096" layer="26" rot="MR0">5V In</text>
-<text x="19.7358" y="41.2496" size="0.6096" layer="25" rot="R270">DOUT</text>
-<text x="18.3642" y="36.1696" size="0.6096" layer="25" rot="R90">DIN/CONFIG</text>
-<text x="16.2814" y="39.8272" size="0.6096" layer="25" rot="R90">D08</text>
-<text x="14.3002" y="38.8366" size="0.6096" layer="25" rot="R90">RESET</text>
-<text x="12.2936" y="36.6522" size="0.6096" layer="25" rot="R90">PWM0/RSSI</text>
-<text x="10.414" y="39.2176" size="0.6096" layer="25" rot="R90">PWM1</text>
-<text x="6.35" y="32.8676" size="0.6096" layer="25" rot="R90">DTR/SLEEP_RQ/DI8</text>
-<text x="4.3688" y="39.8526" size="0.6096" layer="25" rot="R90">GND</text>
-<text x="22.5044" y="39.497" size="0.6096" layer="25" rot="R90">3.3V</text>
-<text x="8.4328" y="36.3982" size="0.6096" layer="25" rot="R90">[Reserved]</text>
-<text x="4.318" y="22.6568" size="0.6096" layer="25" rot="R90">AD0/DI0</text>
-<text x="6.3754" y="22.6314" size="0.6096" layer="25" rot="R90">AD1/DI1</text>
-<text x="8.3312" y="22.606" size="0.6096" layer="25" rot="R90">AD2/DI2</text>
-<text x="10.414" y="22.606" size="0.6096" layer="25" rot="R90">AD3/DI3</text>
-<text x="12.3698" y="22.5298" size="0.6096" layer="25" rot="R90">RST/AD6/DI6</text>
-<text x="14.1224" y="22.606" size="0.6096" layer="25" rot="R90">ASS/AD5/DI5</text>
-<text x="16.4338" y="22.6314" size="0.6096" layer="25" rot="R90">VREF</text>
-<text x="18.3642" y="22.5298" size="0.6096" layer="25" rot="R90">ON/SLEEP</text>
-<text x="20.3708" y="22.5298" size="0.6096" layer="25" rot="R90">CTS/DI7</text>
-<text x="22.479" y="22.6314" size="0.6096" layer="25" rot="R90">AD4/DI4</text>
-<text x="2.7432" y="31.2928" size="0.6096" layer="25" rot="R90">7/8/13</text>
+<text x="29.21" y="37.1348" size="0.8128" layer="26" rot="MR0">3.3 Out</text>
+<text x="3.8354" y="37.084" size="0.8128" layer="26" rot="MR0">5V In</text>
+<text x="19.7358" y="41.2496" size="0.8128" layer="25" rot="R270">DOUT</text>
+<text x="18.7706" y="34.163" size="0.8128" layer="25" rot="R90">DIN/CONFIG</text>
+<text x="16.7386" y="39.243" size="0.8128" layer="25" rot="R90">D08</text>
+<text x="14.7574" y="37.973" size="0.8128" layer="25" rot="R90">RESET</text>
+<text x="12.7508" y="34.8234" size="0.8128" layer="25" rot="R90">PWM0/RSSI</text>
+<text x="10.795" y="38.354" size="0.8128" layer="25" rot="R90">PWM1</text>
+<text x="6.8072" y="29.8196" size="0.8128" layer="25" rot="R90">DTR/SLEEP_RQ/DI8</text>
+<text x="4.7244" y="39.1668" size="0.8128" layer="25" rot="R90">GND</text>
+<text x="22.8854" y="38.7858" size="0.8128" layer="25" rot="R90">3.3V</text>
+<text x="8.8392" y="34.3408" size="0.8128" layer="25" rot="R90">[Reserved]</text>
+<text x="4.318" y="22.6568" size="0.8128" layer="25" rot="R90">AD0/DI0</text>
+<text x="6.3754" y="22.6314" size="0.8128" layer="25" rot="R90">AD1/DI1</text>
+<text x="8.3312" y="22.606" size="0.8128" layer="25" rot="R90">AD2/DI2</text>
+<text x="10.414" y="22.606" size="0.8128" layer="25" rot="R90">AD3/DI3</text>
+<text x="12.6238" y="22.5298" size="0.8128" layer="25" rot="R90">RST/AD6/DI6</text>
+<text x="14.1224" y="22.606" size="0.8128" layer="25" rot="R90">ASS/AD5/DI5</text>
+<text x="16.4338" y="22.6314" size="0.8128" layer="25" rot="R90">VREF</text>
+<text x="18.3642" y="22.5298" size="0.8128" layer="25" rot="R90">ON/SLEEP</text>
+<text x="20.3708" y="22.5298" size="0.8128" layer="25" rot="R90">CTS/DI7</text>
+<text x="22.479" y="22.6314" size="0.8128" layer="25" rot="R90">AD4/DI4</text>
+<text x="2.7432" y="31.2928" size="0.8128" layer="25" rot="R90">8/6/13</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2748,19 +2747,16 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C18" library="rcl" package="C1206K" value="10uF" x="22.4036" y="49.0946" smashed="yes" rot="MR90">
-<attribute name="NAME" x="21.4668" y="46.2884" size="0.8128" layer="26" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="21.0476" y="50.9668" size="0.8128" layer="28" ratio="16" rot="MR270"/>
 </element>
 <element name="C19" library="rcl" package="C0805K" value=".01uF" x="26.2612" y="49.1146" smashed="yes" rot="MR90">
-<attribute name="NAME" x="27.5586" y="48.6902" size="0.8128" layer="26" ratio="16" rot="MR180"/>
-<attribute name="VALUE" x="26.2124" y="47.0964" size="0.8128" layer="28" ratio="16" rot="MR180"/>
+<attribute name="VALUE" x="27.9606" y="47.7008" size="0.8128" layer="28" ratio="16" rot="MR90"/>
 </element>
 <element name="OPT101" library="ic-package" package="DIL08" value="" x="11.4554" y="6.9088" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.1788" y="7.1882" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="8.6106" y="6.4008" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="15.0114" y="7.5438" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C1" library="rcl" package="C0805K" value=".01uF" x="14.2748" y="15.0876" smashed="yes" rot="MR0">
-<attribute name="NAME" x="15.1986" y="16.115" size="1.016" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="14.8176" y="13.086" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="JP1" library="pinhead-2" package="1X10M" value="" x="13" y="43" smashed="yes">
@@ -2786,10 +2782,10 @@ design rules under a new name.</description>
 <element name="LSM_PWR" library="jst-ph" package="JST-PH2-SMD" value="JST-PH2-SMD" x="1.4224" y="45.3644" rot="MR90"/>
 <element name="U$2" library="jst-ph" package="JST-PH2-SMD" value="JST-PH2-SMD" x="17.1958" y="3.7592" rot="MR90"/>
 <element name="AMB1" library="resistor" package="R0805" value="200k" x="3.683" y="9.6012" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="1.1684" y="7.5438" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="1.1684" y="7.5438" size="0.8128" layer="28" rot="MR90"/>
 </element>
 <element name="AMB2" library="resistor" package="R0805" value="96k" x="21.1328" y="14.986" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="22.3012" y="16.0782" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="22.3012" y="16.0782" size="0.8128" layer="28" rot="MR0"/>
 </element>
 <element name="U$1" library="jst-ph" package="JST-PH10-SMD" value="JST-PH10-SMD" x="1.0922" y="12.319"/>
 <element name="U$3" library="jst-ph" package="JST-PH10-SMD" value="JST-PH10-SMD" x="24.892" y="51.5366" rot="R180"/>
@@ -2849,11 +2845,9 @@ design rules under a new name.</description>
 <wire x1="4.572" y1="46.736" x2="3.048" y2="45.212" width="0.508" layer="1"/>
 <wire x1="4.572" y1="49.784" x2="4.572" y2="46.736" width="0.508" layer="1"/>
 <wire x1="9.144" y1="54.356" x2="4.572" y2="49.784" width="0.508" layer="1"/>
-<wire x1="14.732" y1="54.356" x2="9.144" y2="54.356" width="0.508" layer="1"/>
-<wire x1="24.384" y1="21.336" x2="24.7904" y2="21.1836" width="0.508" layer="16"/>
-<via x="16.256" y="22.86" extent="1-16" drill="0.508" alwaysstop="yes"/>
-<via x="14.732" y="54.356" extent="1-16" drill="0.508" alwaysstop="yes"/>
-<wire x1="24.7904" y1="21.1582" x2="24.7904" y2="21.1836" width="0" layer="19" extent="16-16"/>
+<wire x1="15.3162" y1="55.2704" x2="9.144" y2="54.356" width="0.508" layer="1"/>
+<via x="15.3162" y="55.2704" extent="1-16" drill="0.508" alwaysstop="yes"/>
+<wire x1="24.7904" y1="21.1582" x2="24.7904" y2="21.1836" width="0.6096" layer="16"/>
 </signal>
 <signal name="AMB_OUT">
 <contactref element="OPT101" pad="4"/>
@@ -2929,13 +2923,13 @@ design rules under a new name.</description>
 </polygon>
 <via x="16.7132" y="26.9494" extent="1-16" drill="0.6" alwaysstop="yes"/>
 <via x="25.654" y="25.9842" extent="1-16" drill="0.6" alwaysstop="yes"/>
-<via x="17.0434" y="37.2618" extent="1-16" drill="0.6" alwaysstop="yes"/>
+<via x="13.6906" y="37.338" extent="1-16" drill="0.6" alwaysstop="yes"/>
 <via x="14.9098" y="32.2834" extent="1-16" drill="0.6" alwaysstop="yes"/>
 <wire x1="22.86" y1="47.752" x2="22.4036" y2="47.5946" width="0.508" layer="16"/>
 <wire x1="22.86" y1="47.752" x2="22.86" y2="47.4" width="0.508" layer="16"/>
-<via x="10.9474" y="25.8826" extent="1-16" drill="0.6" alwaysstop="yes"/>
+<via x="11.1252" y="25.908" extent="1-16" drill="0.6" alwaysstop="yes"/>
 <wire x1="16.7132" y1="26.9494" x2="16.7132" y2="25.8826" width="0.6096" layer="1"/>
-<wire x1="16.7132" y1="25.8826" x2="10.9474" y2="25.8826" width="0.6096" layer="1"/>
+<wire x1="16.7132" y1="25.8826" x2="11.1252" y2="25.908" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V" class="1">
 <contactref element="R1" pad="1"/>
@@ -3165,7 +3159,8 @@ design rules under a new name.</description>
 <wire x1="22.8" y1="35.3822" x2="22.8" y2="35.391" width="0.6096" layer="16"/>
 <wire x1="26.95" y1="35.5698" x2="23.368" y2="35.5698" width="0.6096" layer="16"/>
 <wire x1="23.368" y1="35.5698" x2="23.368" y2="35.3822" width="0.6096" layer="16"/>
-<wire x1="22.8" y1="35.391" x2="15.351" y2="38.674" width="0" layer="19" extent="16-16"/>
+<wire x1="22.8" y1="35.391" x2="18.634" y2="35.391" width="0.6096" layer="16"/>
+<wire x1="18.634" y1="35.391" x2="15.351" y2="38.674" width="0.6096" layer="16"/>
 </signal>
 </signals>
 </board>
