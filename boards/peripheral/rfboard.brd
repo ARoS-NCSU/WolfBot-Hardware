@@ -2793,16 +2793,16 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="N$19">
-<via x="4" y="56" extent="1-16" drill="3.2"/>
+<via x="4" y="56" extent="1-16" drill="3.2" alwaysstop="yes"/>
 </signal>
 <signal name="N$20">
-<via x="26" y="56" extent="1-16" drill="3.2"/>
+<via x="26" y="56" extent="1-16" drill="3.2" alwaysstop="yes"/>
 </signal>
 <signal name="N$21">
-<via x="4" y="4" extent="1-16" drill="3.2"/>
+<via x="4" y="4" extent="1-16" drill="3.2" alwaysstop="yes"/>
 </signal>
 <signal name="N$22">
-<via x="26" y="4" extent="1-16" drill="3.2"/>
+<via x="26" y="4" extent="1-16" drill="3.2" alwaysstop="yes"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="C18" pad="2"/>
@@ -3067,7 +3067,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$1"/>
 <wire x1="21.9592" y1="6.7208" x2="21.9458" y2="6.7342" width="0.6096" layer="16"/>
 <wire x1="21.9458" y1="6.7342" x2="24.8698" y2="6.7342" width="1.016" layer="16"/>
-<via x="26.8224" y="8.7884" extent="1-16" drill="0.9"/>
+<via x="26.8224" y="8.7884" extent="1-16" drill="0.9" alwaysstop="yes"/>
 <wire x1="24.8698" y1="6.7342" x2="24.8698" y2="6.8358" width="0.8128" layer="16"/>
 <wire x1="24.8698" y1="6.8358" x2="26.8224" y2="8.7884" width="0.8128" layer="16"/>
 </signal>
