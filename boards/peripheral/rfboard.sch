@@ -9080,7 +9080,29 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <junction x="154.94" y="106.68"/>
-<wire x1="149.86" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="AMB2" gate="G$1" pin="2"/>
+<junction x="147.32" y="83.82"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="114.3" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="111.76" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="OPT101" gate="G$1" pin="8"/>
+<wire x1="165.1" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+<junction x="121.92" y="114.3"/>
+<junction x="132.08" y="111.76"/>
+<wire x1="132.08" y1="111.76" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="OPT101" gate="G$1" pin="3"/>
+<wire x1="132.08" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<junction x="134.62" y="119.38"/>
+<junction x="149.86" y="124.46"/>
+<wire x1="132.08" y1="111.76" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<junction x="165.1" y="111.76"/>
+<wire x1="154.94" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="106.68" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMB_OUT" class="0">
@@ -9521,30 +9543,6 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 <junction x="119.38" y="101.6"/>
-</segment>
-</net>
-<net name="N_GND" class="1">
-<segment>
-<pinref part="AMB2" gate="G$1" pin="2"/>
-<junction x="147.32" y="83.82"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="114.3" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="111.76" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="OPT101" gate="G$1" pin="8"/>
-<wire x1="165.1" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
-<junction x="121.92" y="114.3"/>
-<junction x="132.08" y="111.76"/>
-<wire x1="132.08" y1="111.76" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="OPT101" gate="G$1" pin="3"/>
-<wire x1="132.08" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
-<junction x="134.62" y="119.38"/>
-<junction x="149.86" y="124.46"/>
-<wire x1="132.08" y1="111.76" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="83.82" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
-<junction x="165.1" y="111.76"/>
 </segment>
 </net>
 </nets>
