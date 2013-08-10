@@ -5313,8 +5313,8 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="wolfbot" deviceset="ESWITCH-WSP1" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="BATT_H" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="BATT_L" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="BATT_H" library="resistor" deviceset="R-US_" device="R0603" value="715k"/>
+<part name="BATT_L" library="resistor" deviceset="R-US_" device="R0603" value="165k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="jst-ph" deviceset="JST-PH8-SMD-90*" device=""/>
 </parts>

@@ -114,8 +114,8 @@
 <dimension x1="4.1275" y1="40.3225" x2="4.1275" y2="4.1275" x3="-15.05415" y3="22.225" textsize="1.778" layer="47" dtype="diameter" unit="inch" precision="3"/>
 <dimension x1="3.058334375" y1="39.149025" x2="5.196665625" y2="41.495975" x3="-10.160003125" y3="53.339996875" textsize="1.778" layer="47" dtype="diameter" unit="inch" precision="3"/>
 <text x="28.6512" y="16.4846" size="0.8128" layer="22" font="vector" rot="MR0">En</text>
-<text x="28.2575" y="28.8925" size="1.016" layer="22" font="vector" rot="MR0">M3+</text>
-<text x="28.2575" y="26.3525" size="1.016" layer="22" font="vector" rot="MR0">M3-</text>
+<text x="33.8201" y="30.2895" size="1.016" layer="22" font="vector" rot="MR0">M3+</text>
+<text x="33.8201" y="27.7495" size="1.016" layer="22" font="vector" rot="MR0">M3-</text>
 <text x="28.5496" y="14.6304" size="0.8128" layer="22" font="vector" rot="MR0">M1</text>
 <text x="28.6004" y="12.7" size="0.8128" layer="22" font="vector" rot="MR0">D1</text>
 <text x="28.702" y="10.7696" size="0.8128" layer="22" font="vector" rot="MR0">M2</text>
@@ -126,15 +126,15 @@
 <text x="3.175" y="36.3474" size="1.27" layer="21" font="vector">RUN</text>
 <text x="36.5125" y="9.8425" size="1.778" layer="21" font="vector">BAT</text>
 <text x="36.5125" y="29.845" size="1.778" layer="21" font="vector">OUT</text>
-<text x="28.2575" y="36.5125" size="1.016" layer="22" font="vector" rot="MR0">M1-</text>
-<text x="28.2575" y="33.9725" size="1.016" layer="22" font="vector" rot="MR0">M2+</text>
-<text x="28.2575" y="31.4325" size="1.016" layer="22" font="vector" rot="MR0">M2-</text>
-<text x="28.2575" y="39.0525" size="1.016" layer="22" font="vector" rot="MR0">M1+</text>
+<text x="33.8201" y="37.9095" size="1.016" layer="22" font="vector" rot="MR0">M1-</text>
+<text x="33.8201" y="35.3695" size="1.016" layer="22" font="vector" rot="MR0">M2+</text>
+<text x="33.8201" y="32.8295" size="1.016" layer="22" font="vector" rot="MR0">M2-</text>
+<text x="33.8201" y="40.4495" size="1.016" layer="22" font="vector" rot="MR0">M1+</text>
 <text x="14.7955" y="38.9255" size="1.27" layer="21" font="vector">H1</text>
 <text x="11.3665" y="1.0795" size="1.27" layer="21" font="vector">H2</text>
 <text x="43.942" y="1.9939" size="1.016" layer="21" font="vector" align="bottom-right">WolfBot
 Motor Board
-v2013.07.08</text>
+v2013.08.08</text>
 <text x="28.702" y="3.556" size="0.8128" layer="22" font="vector" rot="MR0">B_V</text>
 </plain>
 <libraries>
@@ -1653,7 +1653,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.954" y="38.481" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.59" y="39.243" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="OUT" library="con-molex-micro-fit-3_0" package="43045-0206" value="" x="41.91" y="24.765" rot="R90"/>
+<element name="OUT" library="con-molex-micro-fit-3_0" package="43045-0206" value="" x="41.91" y="24.765" smashed="yes" rot="R90"/>
 <element name="H2" library="st-microelectronics" package="DIL16" value="L293D" x="19.685" y="10.795" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="56P8249" x="-15.875" y="-13.335" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="L293D" x="-15.875" y="-13.335" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1663,16 +1663,21 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.05" y="18.288" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="MOTORS" library="SparkFun-Connectors" package="1X06_LOCK" value="" x="29.845" y="40.005" smashed="yes" rot="MR270">
-<attribute name="NAME" x="32.385" y="29.845" size="1.27" layer="26" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="33.147" y="41.275" size="1.27" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="BAT" library="con-molex-micro-fit-3_0" package="43045-0206" value="" x="41.91" y="16.51" rot="R90"/>
 <element name="CHARGE" library="con-molex-micro-fit-3_0" package="43045-0206" value="" x="2.286" y="12.5222" rot="R270"/>
 <element name="U$1" library="wolfbot" package="WSP1-T2-M6" value="ESWITCH-WSP1" x="2.54" y="29.21"/>
 <element name="R1" library="resistor" package="R0603" value="" x="15.494" y="42.164" rot="MR180"/>
-<element name="BATT_H" library="resistor" package="R0603" value="" x="35.306" y="22.6568" rot="MR0"/>
-<element name="BATT_L" library="resistor" package="R0603" value="" x="27.686" y="1.905" rot="MR0"/>
-<element name="U$3" library="jst-ph" package="JST-PH-SMD-90*" value="JST-PH8-SMD-90" x="39.0144" y="20.3708" rot="MR270"/>
+<element name="BATT_H" library="resistor" package="R0603" value="715k" x="35.306" y="22.6568" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="36.2712" y="23.9268" size="0.8128" layer="28" rot="MR0"/>
+</element>
+<element name="BATT_L" library="resistor" package="R0603" value="165k" x="27.686" y="1.905" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="30.2006" y="2.7178" size="0.8128" layer="28" rot="MR270"/>
+</element>
+<element name="U$3" library="jst-ph" package="JST-PH-SMD-90*" value="JST-PH8-SMD-90" x="39.0144" y="20.3708" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="39.0144" y="-2.4892" size="1.27" layer="28" rot="MR0"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1695,7 +1700,7 @@ design rules under a new name.</description>
 <vertex x="48.26" y="-2.54"/>
 <vertex x="48.26" y="48.26"/>
 </polygon>
-<polygon width="0.508" layer="16">
+<polygon width="0.508" layer="16" spacing="0.8128">
 <vertex x="-2.54" y="45.72"/>
 <vertex x="-2.54" y="-2.54"/>
 <vertex x="45.4025" y="-0.9525"/>
