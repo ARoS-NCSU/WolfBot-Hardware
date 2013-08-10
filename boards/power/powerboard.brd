@@ -172,7 +172,7 @@
 <wire x1="14.5" y1="28.6" x2="14.5" y2="31.9" width="0.3048" layer="25"/>
 <text x="17.2938" y="28.7532" size="1.27" layer="26" font="vector" ratio="11" rot="MR180">7.4V= 3.3V, 5V,  6V @ 2A MAX</text>
 <text x="24.1264" y="25.7052" size="1.016" layer="26" font="vector" ratio="16" rot="MR180">Wolfbot Swarm Robotics</text>
-<text x="26.3362" y="23.7494" size="1.016" layer="26" font="vector" ratio="16" rot="MR180">REV. June 23 2013</text>
+<text x="26.3362" y="23.7494" size="1.016" layer="26" font="vector" ratio="16" rot="MR180">REV. Aug 8 2013</text>
 <text x="60.452" y="20.066" size="1.016" layer="25" font="vector" rot="R90">5V short</text>
 <text x="60.706" y="8.89" size="1.016" layer="25" font="vector" rot="R90">BATT. short</text>
 </plain>
