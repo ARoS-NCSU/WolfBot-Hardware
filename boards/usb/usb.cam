@@ -1,5 +1,5 @@
 [CAM Processor Job]
-Description[en]="<b>Generates Extended Gerber Format</b><p>\nThis CAM job consists of five sections that generate data for a two layer board.<p><p>\nYou will get five gerber files that contain data for:<br>\ncomponent side *.cmp<br>\nsolder side  *.sol<br>\nsilkscreen component side  *.plc<br>\nsolder stop component side  *.stc<br>\nsolder stop solder sid  *.sts<br>"
+Description[en]="<b>Gerber (no names) with Excellon Drill</b>\n<p>This CAM job generates gerber files for a two layer board.\nYou will get six gerber files that contain data for:</p>\nTop copper layer: *.gtl <br />\nBottom copper layer: *.gbl <br />\nTop overlay (silk:)  *.gto <br />\nBottom overlay:  *.gbo <br />\nTop stop mask: *.gts<br />\nBottom stop mask: *.gbs\n<p>An Excellon drill file is also produced</p>"
 Section=Sec_1
 Section=Sec_2
 Section=Sec_3
@@ -7,15 +7,16 @@ Section=Sec_4
 Section=Sec_5
 Section=Sec_6
 Section=Sec_7
+Section=Sec_8
 
 [Sec_1]
 Name[en]="Top Copper"
 Prompt=""
 Device="GERBER_RS274X"
-Wheel=""
+Wheel=".whl"
 Rack=""
 Scale=1
-Output=".gtl"
+Output="%N.gtl"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -33,7 +34,7 @@ Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output=".gbl"
+Output="%N.gbl"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -45,31 +46,13 @@ Layers=" 16 17 18"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
 [Sec_3]
-Name[en]="Top Silkscreen"
+Name[en]="Top Stop"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output=".gto"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 121"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_4]
-Name[en]="Top Soldermask"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gts"
+Output="%N.gts"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -80,14 +63,14 @@ Page="12000.0mil 8000.0mil"
 Layers=" 29"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_5]
-Name[en]="Bottom Soldermask"
+[Sec_4]
+Name[en]="Bottom Stop"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output=".gbs"
+Output="%N.gbs"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -98,14 +81,50 @@ Page="12000.0mil 8000.0mil"
 Layers=" 30"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
+[Sec_5]
+Name[en]="Top Silk"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.gto"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 20 121"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
 [Sec_6]
+Name[en]="Bottom Silk"
+Prompt=""
+Device="GERBER_RS274X"
+Wheel=".whl"
+Rack=""
+Scale=1
+Output="%N.gbo"
+Flags="0 0 0 1 0 1 1"
+Emulate="0"
+Offset="0.0mil 0.0mil"
+Sheet=1
+Tolerance="0 0 0 0 0 0"
+Pen="0.0mil 0"
+Page="12000.0mil 8000.0mil"
+Layers=" 122"
+Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+
+[Sec_7]
 Name[en]="Border"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output=".bor"
+Output="%N.bor"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -116,14 +135,14 @@ Page="12000.0mil 8000.0mil"
 Layers=" 20"
 Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
 
-[Sec_7]
-Name[en]="Drill File"
+[Sec_8]
+Name[en]="Drill"
 Prompt=""
 Device="EXCELLON"
-Wheel=""
+Wheel=".whl"
 Rack=""
 Scale=1
-Output=".drd"
+Output="%N.drd"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"

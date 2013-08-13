@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1186,7 +1186,7 @@
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
+<net name="D+" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D+"/>
 <pinref part="U$2" gate="G$1" pin="D+"/>
@@ -1195,7 +1195,7 @@
 <junction x="45.72" y="68.58"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="D-" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D-"/>
 <pinref part="U$1" gate="G$1" pin="D-"/>
