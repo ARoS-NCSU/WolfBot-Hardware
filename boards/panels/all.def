@@ -30,6 +30,11 @@ Col {
   Row {       
       Periph Rotate
   }   
+  Row {       
+      USB
+      USB
+      USB
+  }   
 }
 
 }
