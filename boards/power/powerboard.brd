@@ -175,7 +175,7 @@
 <text x="26.3362" y="23.7494" size="1.016" layer="26" font="vector" ratio="16" rot="MR180">REV. Aug 8 2013</text>
 <text x="60.452" y="20.066" size="1.016" layer="25" font="vector" rot="R90">5V short</text>
 <text x="60.706" y="8.89" size="1.016" layer="25" font="vector" rot="R90">BATT. short</text>
-<text x="35.306" y="18.034" size="1.778" layer="25">^</text>
+<text x="33.782" y="16.51" size="1.778" layer="25">^</text>
 </plain>
 <libraries>
 <library name="rcl">
