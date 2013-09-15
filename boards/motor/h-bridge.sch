@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5312,11 +5312,11 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="CHARGE" library="con-molex-micro-fit-3_0" deviceset="HEADER_POS2_?" device="43045-0206"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="wolfbot" deviceset="ESWITCH-WSP1" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="BATT_H" library="resistor" deviceset="R-US_" device="R0603" value="715k"/>
-<part name="BATT_L" library="resistor" deviceset="R-US_" device="R0603" value="165k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="jst-ph" deviceset="JST-PH8-SMD-90*" device=""/>
+<part name="EN_D" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="BATT_L" library="resistor" deviceset="R-US_" device="R0805" value="165k"/>
+<part name="BATT_H" library="resistor" deviceset="R-US_" device="R0805" value="715k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5337,11 +5337,11 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <instance part="CHARGE" gate="G$1" x="119.38" y="124.46" rot="MR180"/>
 <instance part="GND6" gate="1" x="109.22" y="119.38"/>
 <instance part="U$1" gate="G$1" x="83.82" y="111.76"/>
-<instance part="R1" gate="G$1" x="-2.54" y="81.28" rot="R90"/>
-<instance part="BATT_H" gate="G$1" x="22.86" y="17.78" rot="R180"/>
-<instance part="BATT_L" gate="G$1" x="33.02" y="12.7" rot="R270"/>
 <instance part="GND7" gate="1" x="33.02" y="5.08"/>
 <instance part="U$3" gate="G$1" x="60.96" y="30.48"/>
+<instance part="EN_D" gate="G$1" x="-2.54" y="81.28" rot="R90"/>
+<instance part="BATT_L" gate="G$1" x="33.02" y="12.7" rot="R90"/>
+<instance part="BATT_H" gate="G$1" x="22.86" y="17.78" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5375,11 +5375,11 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <junction x="30.48" y="73.66"/>
 <pinref part="H1" gate="G$1" pin="GND2"/>
 <wire x1="33.02" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="76.2" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-2.54" y="76.2"/>
 <junction x="20.32" y="73.66"/>
+<pinref part="EN_D" gate="G$1" pin="1"/>
+<junction x="-2.54" y="76.2"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -5419,8 +5419,8 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="114.3" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BATT_L" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="BATT_L" gate="G$1" pin="1"/>
 <junction x="33.02" y="7.62"/>
 </segment>
 </net>
@@ -5443,9 +5443,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <label x="-10.16" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="-2.54" y1="88.9" x2="-10.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="88.9" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<junction x="-2.54" y="86.36"/>
 <junction x="-2.54" y="88.9"/>
+<pinref part="EN_D" gate="G$1" pin="2"/>
+<junction x="-2.54" y="86.36"/>
 </segment>
 <segment>
 <pinref part="H2" gate="G$1" pin="1-2EN"/>
@@ -5625,8 +5625,9 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 </segment>
 <segment>
 <label x="10.16" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="BATT_H" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="BATT_H" gate="G$1" pin="2"/>
+<junction x="17.78" y="17.78"/>
 </segment>
 <segment>
 <pinref part="H1" gate="G$1" pin="VCC2"/>
@@ -5650,14 +5651,15 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="BATT_H" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="17.78" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="BATT_L" gate="G$1" pin="1"/>
-<junction x="33.02" y="17.78"/>
 <pinref part="U$3" gate="G$1" pin="P$8"/>
+<pinref part="BATT_H" gate="G$1" pin="1"/>
+<pinref part="BATT_L" gate="G$1" pin="2"/>
+<junction x="33.02" y="17.78"/>
+<junction x="27.94" y="17.78"/>
 </segment>
 </net>
 </nets>
