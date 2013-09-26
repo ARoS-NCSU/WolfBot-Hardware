@@ -3090,11 +3090,11 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="R7" pad="2"/>
-<wire x1="38" y1="38" x2="40" y2="38" width="0.8128" layer="1"/>
+<wire x1="38" y1="38" x2="40" y2="38" width="0" layer="19" extent="1-16"/>
 <wire x1="40" y1="38" x2="40.7194" y2="37.262" width="0.8128" layer="1"/>
 <wire x1="38" y1="38" x2="37.8482" y2="37.4904" width="0.381" layer="1"/>
 <wire x1="40.7194" y1="37.262" x2="41.428" y2="36.5534" width="0.8128" layer="1"/>
-<wire x1="41.428" y1="36.5534" x2="41.428" y2="32.734" width="0.8128" layer="1"/>
+<wire x1="41.428" y1="36.5534" x2="41.428" y2="32.734" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND" class="1">
 <contactref element="C4" pad="2"/>
@@ -3381,7 +3381,7 @@ design rules under a new name.</description>
 <signal name="N$19">
 <contactref element="R7" pad="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="33" y1="39" x2="35" y2="39" width="0.8128" layer="1"/>
+<wire x1="33" y1="39" x2="35" y2="39" width="0" layer="19" extent="1-16"/>
 <wire x1="35" y1="39" x2="34.9482" y2="38.7404" width="0.381" layer="1"/>
 <wire x1="33" y1="39" x2="32.3342" y2="38.4078" width="0.381" layer="1"/>
 </signal>
