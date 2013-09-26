@@ -115,9 +115,15 @@
 <text x="33.4518" y="12.6492" size="0.8128" layer="25" font="vector" rot="R90">SEL_A</text>
 <text x="31.4198" y="12.6492" size="0.8128" layer="25" font="vector" rot="R90">SEL_B</text>
 <text x="33.0962" y="43.688" size="1.27" layer="25" font="vector" rot="R180">DMS Sensor Board
-    8/6/13</text>
+  v2013/09/26</text>
 <text x="20.2946" y="34.6202" size="1.016" layer="25" font="vector">1</text>
 <text x="25.4254" y="12.446" size="0.8128" layer="25" font="vector" rot="R90">3.3V</text>
+<text x="-0.1016" y="10.9728" size="1.27" layer="21">DMS 000</text>
+<text x="-0.7366" y="26.0858" size="1.27" layer="21">DMS 060</text>
+<text x="10.3378" y="35.5092" size="1.27" layer="21" rot="R90">DMS 120</text>
+<text x="37.8968" y="35.7886" size="1.27" layer="21" rot="R90">DMS 180</text>
+<text x="38.0746" y="25.4508" size="1.27" layer="21">DMS 240</text>
+<text x="38.4302" y="10.5156" size="1.27" layer="21">DMS 300</text>
 </plain>
 <libraries>
 <library name="resistor">
