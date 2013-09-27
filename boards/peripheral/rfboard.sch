@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8978,7 +8978,7 @@ http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="LSM_PWR" library="jst-ph" deviceset="JST-PH2-SMD" device=""/>
 <part name="U$2" library="jst-ph" deviceset="JST-PH2-SMD" device=""/>
 <part name="AMB1" library="resistor" deviceset="R-US_" device="R0805" value="200k"/>
-<part name="AMB2" library="resistor" deviceset="R-US_" device="R0805" value="96k"/>
+<part name="AMB2" library="resistor" deviceset="R-US_" device="R0805" value="200k"/>
 <part name="U$1" library="jst-ph" deviceset="JST-PH10-SMD" device=""/>
 <part name="U$3" library="jst-ph" deviceset="JST-PH10-SMD" device=""/>
 <part name="X1" library="con-molex-micro-fit-3_0" deviceset="HEADER_POS4_?" device="43045-0406"/>
