@@ -1637,9 +1637,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5050505"
-     inkscape:cx="311.19999"
-     inkscape:cy="761.09371"
+     inkscape:zoom="0.75252525"
+     inkscape:cx="103.62289"
+     inkscape:cy="520.99714"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1653,10 +1653,10 @@
      inkscape:snap-object-midpoints="false"
      units="in"
      inkscape:snap-center="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:window-width="1916"
+     inkscape:window-height="1023"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="36"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="true"
      borderlayer="false"
@@ -3112,7 +3112,7 @@
     </g>
     <g
        id="g8207"
-       transform="matrix(-1,0,0,1,-543.16933,-313.31634)">
+       transform="matrix(-1,0,0,1,-489.16933,-301.31634)">
       <path
          inkscape:connector-curvature="0"
          id="path7602-0-4"
@@ -3151,7 +3151,7 @@
     <g
        style="display:inline"
        id="g8207-6"
-       transform="matrix(-1,0,0,1,-543.16933,-279.25418)">
+       transform="matrix(-1,0,0,1,-489.16933,-267.25418)">
       <path
          inkscape:connector-curvature="0"
          id="path7602-0-4-6"
@@ -3190,7 +3190,7 @@
     <g
        style="display:inline"
        id="g8207-4"
-       transform="matrix(-1,0,0,1,-543.16933,-245.19206)">
+       transform="matrix(-1,0,0,1,-489.16933,-233.19206)">
       <path
          inkscape:connector-curvature="0"
          id="path7602-0-4-1"
@@ -3229,25 +3229,25 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="446.31546"
-       y="342.81165"
+       x="500.31546"
+       y="354.81165"
        id="text8336"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="446.31546"
-         y="342.81165"
+         x="500.31546"
+         y="354.81165"
          id="tspan18321">MC to Motors</tspan><tspan
          sodipodi:role="line"
-         x="446.31546"
-         y="362.81165"
+         x="500.31546"
+         y="374.81165"
          id="tspan18327" /><tspan
          sodipodi:role="line"
-         x="446.31546"
-         y="382.81165"
+         x="500.31546"
+         y="394.81165"
          id="tspan18325">Note: Red lead is soldered</tspan><tspan
          sodipodi:role="line"
-         x="446.31546"
-         y="402.81165"
+         x="500.31546"
+         y="414.81165"
          id="tspan8348">to (+) terminal on motor</tspan></text>
     <g
        id="g8584"
@@ -3483,7 +3483,8 @@
            x="61.076942"
            y="320.03293" /></flowRegion><flowPara
          id="flowPara9051" /></flowRoot>    <g
-       id="g9553">
+       id="g9553"
+       transform="translate(0,6)">
       <g
          id="g9548">
         <rect
@@ -3501,7 +3502,7 @@
            sodipodi:cy="715.5"
            sodipodi:rx="9"
            sodipodi:ry="4.5"
-           d="m 378,715.5 a 9,4.5 0 1 1 -18,0 9,4.5 0 1 1 18,0 z"
+           d="m 378,715.5 c 0,2.48528 -4.02944,4.5 -9,4.5 -4.97056,0 -9,-2.01472 -9,-4.5 0,-2.48528 4.02944,-4.5 9,-4.5 4.97056,0 9,2.01472 9,4.5 z"
            transform="matrix(0.94444444,0,0,1,371.14835,284.85048)" />
         <rect
            style="opacity:0.92000002;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -3572,17 +3573,17 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="648"
-       y="935.362"
+       x="564"
+       y="937.362"
        id="text8605-2-7-7"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8607-9-5-7"
-         x="648"
-         y="935.362">PB to BBB</tspan></text>
+         x="564"
+         y="937.362">PB to BBB</tspan></text>
     <g
        id="g10014"
-       transform="translate(-21.899377,336.01376)">
+       transform="translate(-19.899377,342.01376)">
       <g
          transform="matrix(0,1,-1.5884113,0,1968.3489,1059.8526)"
          id="g8203-6-3-8">
@@ -3647,14 +3648,14 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-       x="348.04028"
-       y="796.79822"
+       x="350.04028"
+       y="802.79822"
        id="text8605-23"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8607-7"
-         x="348.04028"
-         y="796.79822">Battery to PB</tspan></text>
+         x="350.04028"
+         y="802.79822">Battery to PB</tspan></text>
     <g
        id="g9755"
        transform="translate(-377.3557,242.30201)">
@@ -3887,23 +3888,23 @@
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
     </g>
     <g
-       id="g18273"
-       transform="translate(-7.3288591,54.563758)">
+       id="g3838"
+       transform="translate(-2.8189358,3.4543291e-8)">
       <g
-         id="g18265">
+         id="g3830">
         <path
            style="fill:#000000;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-           d="m 57.29969,832.14501 0,-645.29005"
+           d="m 47.970831,914.46042 0,-689.80332"
            id="path7310-79-5-04-1-5-3"
            inkscape:connector-curvature="0" />
         <path
            style="fill:#000000;stroke:#000000;stroke-width:7.19999933;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-           d="m 48.29969,832.14495 0,-645.29177"
+           d="m 38.970831,914.46038 0,-689.80335"
            id="path7310-2-5-9-0-5-5-2"
            inkscape:connector-curvature="0" />
       </g>
       <g
-         transform="matrix(0,1,-1,0,759.93932,166.0484)"
+         transform="matrix(0,1,-1,0,750.61046,248.61216)"
          id="g10564">
         <g
            id="g8513-33"
@@ -3946,7 +3947,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0,-1,-1,0,759.93932,854.48551)"
+         transform="matrix(0,-1,-1,0,750.61046,889.04927)"
          id="g10564-3"
          style="display:inline">
         <g
@@ -3991,23 +3992,23 @@
       </g>
     </g>
     <g
-       id="g18296"
-       transform="translate(-7.3288591,54.563758)">
+       id="g3861"
+       transform="translate(6.6442953,0.73370003)">
       <g
-         id="g18269">
+         id="g3834">
         <path
-           style="fill:#000000;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-           d="m 90.92099,831.4083 0,-645.29188"
+           style="fill:#000000;stroke:#ff0000;stroke-width:7.19999933;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           d="m 81.592131,913.72372 0,-689.80334"
            id="path7310-79-5-04-1-5-3-3"
            inkscape:connector-curvature="0" />
         <path
            style="fill:#000000;stroke:#000000;stroke-width:7.19999981;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-           d="m 81.92099,831.40827 0,-645.29182"
+           d="m 72.592131,913.72369 0,-689.80334"
            id="path7310-2-5-9-0-5-5-2-9"
            inkscape:connector-curvature="0" />
       </g>
       <g
-         transform="matrix(0,1,-1,0,793.56062,165.3147)"
+         transform="matrix(0,1,-1,0,784.23176,247.87846)"
          id="g10564-5">
         <g
            id="g8513-33-9"
@@ -4050,7 +4051,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0,-1,-1,0,793.56062,853.75181)"
+         transform="matrix(0,-1,-1,0,784.23176,888.31557)"
          id="g10564-3-4"
          style="display:inline">
         <g
@@ -4098,16 +4099,16 @@
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        x="17.724833"
-       y="171.42239"
+       y="157.42239"
        id="text8605-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8607-2"
          x="17.724833"
-         y="171.42239">PRF to PB</tspan><tspan
+         y="157.42239">PRF to PB</tspan><tspan
          sodipodi:role="line"
          x="17.724833"
-         y="191.42239"
+         y="177.42239"
          id="tspan18329">3.3V and 5V</tspan></text>
     <g
        id="g14827"
@@ -4217,7 +4218,7 @@
            y="380.17023" /></flowRegion><flowPara
          id="flowPara15997" /></flowRoot>    <g
        id="g16287"
-       transform="translate(-849.26175,117.48318)">
+       transform="translate(-849.26175,109.48318)">
       <g
          transform="matrix(0,0.48795181,1,0,372.45533,532.46861)"
          id="g7606-0-3-43-7"
@@ -4349,12 +4350,12 @@
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        x="428.73825"
-       y="521.84521"
+       y="513.84521"
        id="text8605-1-6-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="428.73825"
-         y="521.84521"
+         y="513.84521"
          id="tspan16334">IR to BBB/PB</tspan></text>
     <g
        id="g16490"
@@ -4475,7 +4476,8 @@
          y="455.362"
          id="tspan16334-3">PB to USB</tspan></text>
     <g
-       id="g5418">
+       id="g5418"
+       transform="translate(0,-6)">
       <g
          transform="matrix(0,0.48795181,1,0,-301.66561,778.63636)"
          id="g7606-9-4-9-9"
@@ -4501,7 +4503,7 @@
            id="path7310-7-6-5-8-35"
            inkscape:connector-curvature="0" />
         <path
-           style="fill:#000000;stroke:#ff0000;stroke-width:7.20000000000000018;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           style="fill:#000000;stroke:#ff0000;stroke-width:7.19999981;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
            d="m 611.13033,657.35557 -262.8,0"
            id="path7310-79-5-04-1-5-7"
            inkscape:connector-curvature="0" />
@@ -4615,16 +4617,16 @@
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        x="373.2886"
-       y="619.63715"
+       y="613.63715"
        id="text8605-1-6-8-26"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="373.2886"
-         y="619.63715"
+         y="613.63715"
          id="tspan16334-0" /><tspan
          sodipodi:role="line"
          x="373.2886"
-         y="639.63715"
+         y="633.63715"
          id="tspan16602">Servo to BBB/PB</tspan></text>
   </g>
 </svg>
